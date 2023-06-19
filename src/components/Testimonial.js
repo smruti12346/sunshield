@@ -12,7 +12,29 @@ function Testimonial() {
     slidesToScroll: 1,
     autoplay: true, 
     autoplaySpeed: 2000, 
-  };
+    responsive: [
+        {
+          breakpoint: 1024, // screens larger than 1024px
+          settings: {
+            slidesToShow: 2,
+          }
+        },
+        {
+          breakpoint: 768, // screens between 768px and 1024px
+          settings: {
+            slidesToShow: 1,
+          }
+        },
+        {
+          breakpoint: 480, // screens smaller than 768px
+          settings: {
+            slidesToShow: 1,
+          }
+        }
+      ]
+    };
+  
+
 
   return (
     <>
@@ -20,10 +42,10 @@ function Testimonial() {
       {/* testimonial section start here */}
       <section className="testimonial-section padding-tb" style={{backgroundImage: 'url(assets/images/testimonial/bg-image.jpg)', backgroundSize: 'cover'}}>
         <div className="container">
-        <div className="section-header" data-aos="fade-up" data-aos-duration={700}>
-        <h2>Our Testimonials</h2>
-        <h2><span>Client’s Feedback Latest Reviews From My Clients</span></h2>
-      </div>
+          <div className="section-header" data-aos="fade-up" data-aos-duration={700}>
+            <h2>Our Testimonials</h2>
+            <h2><span>Client’s Feedback Latest Reviews From My Clients</span></h2>
+          </div>
           <div className="testimonial-slider" data-aos="fade-up" data-aos-duration={700}>
             <Slider {...settings}>
               <div className="testimonial-box">

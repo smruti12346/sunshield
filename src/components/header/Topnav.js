@@ -11,7 +11,7 @@ function Topnav() {
                     <ul className="left">
                         <li>
                             <i className="far fa-clock" />
-                             Sun-Fri: 9am-6pm Saterday Closed 
+                             Sun-Fri: 9am-6pm Saturday Closed 
                         </li>
                         <li>
                             <i className="fas fa-map-marker-alt" />

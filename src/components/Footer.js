@@ -82,7 +82,7 @@ function Footer() {
             <div className="container">
               <div className="section-wrapper">
                 <div className="left">
-                  <span>© 2019 <a href="index.html">EnviShare</a> Design by <a href="#">Labartisan.</a></span>
+                  <span>© 2023 <a href="index.html">EnviShare</a> Design by <a href="#">The Technovate.</a></span>
                 </div>
                 <ul className="right">
                   <li>
