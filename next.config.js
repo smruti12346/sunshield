@@ -1,6 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
-}
+  reactStrictMode: false,
+  images: {
+    domains: ["sunshield.thecbdworld.org"],
+  },
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
