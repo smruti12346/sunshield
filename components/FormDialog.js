@@ -4,6 +4,8 @@ import DialogContent from "@mui/material/DialogContent";
 import axios from "axios";
 import { Formik, Form, Field, ErrorMessage } from 'formik';
 import * as Yup from 'yup';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const validationSchema = Yup.object().shape({
   first: Yup
@@ -53,6 +55,10 @@ export default function FormDialog(props) {
       // Reset the form
       resetForm();
       handleClose();
+     // Display a success popup
+    toast.success('Submitted Successfully', {
+      position: toast.POSITION.TOP_CENTER,
+    });
     } catch (error) {
       // Handle error if needed
       console.error('Error:', error);
@@ -71,6 +77,7 @@ export default function FormDialog(props) {
  
   return (
     <div>
+    <ToastContainer />
       <Dialog
         open={open}
         onClose={handleClose}

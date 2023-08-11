@@ -5,6 +5,8 @@ import { useState } from "react";
 import axios from "axios";
 import { Formik, Form, Field, ErrorMessage } from 'formik';
 import * as Yup from 'yup';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 const validationSchema = Yup.object().shape({
   name1: Yup
   .string()
@@ -55,6 +57,10 @@ const Contact = () => {
 
       // Reset the form
       resetForm();
+      // Display a success popup
+    toast.success('Submitted Successfully', {
+      position: toast.POSITION.TOP_CENTER,
+    });
     } catch (error) {
       // Handle error if needed
       console.error('Error:', error);
@@ -64,6 +70,7 @@ const Contact = () => {
  
   return (
     <div>
+    <ToastContainer />
       <section className="inner-header bg-green">
         <div className="container-fluid p-0">
           <Image
