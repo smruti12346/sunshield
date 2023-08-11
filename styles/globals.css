@@ -1072,8 +1072,9 @@ input[type="checkbox"] + label {
 button,
 input[type="button"],
 input[type="submit"] {
-  /* background-color: #222; */
-  border: 0;
+  background-color: transparent;
+  outline: none !important;
+  border:none !important;
   -webkit-border-radius: 2px;
   border-radius: 2px;
   -webkit-box-shadow: none;
@@ -1110,6 +1111,7 @@ input[type="button"]:focus,
 input[type="submit"]:hover,
 input[type="submit"]:focus {
   /* background: #767676; */
+  border: 0px solid transparent;
 }
 
 button.secondary:hover,
@@ -1122,7 +1124,8 @@ input[type="reset"].secondary:hover,
 input[type="reset"].secondary:focus,
 input[type="submit"].secondary:hover,
 input[type="submit"].secondary:focus {
-  background: #bbb;
+  /* background: #bbb; */
+  border: 0px solid transparent;
 }
 
 .comment-form {
@@ -9605,9 +9608,9 @@ div#scrollbar::-webkit-scrollbar-thumb {
   width: 100%;
 }
 .comment-form button {
-  border: none;
-  outline: none;
-  background: transparent;
+  border: none !important;
+  outline: none !important;
+  background: transparent !important;
 }
 .comment-form button .custom-btn {
   padding: 12px 28px;
@@ -10925,4 +10928,12 @@ a:hover {
 /* preloader of form */
 .loading .fa-spin {
   animation: fa-spin 2s infinite linear; /* Apply rotating animation */
+}
+
+.con-tit{
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 25px;
+  text-align: center;
+  margin-top: 10px;
 }

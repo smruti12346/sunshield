@@ -91,12 +91,14 @@ export default function FormDialog(props) {
           <div>
             <div>
               <div class="contact-area">
-                <div class="contact-title">
-                  <h4>{props.name}</h4>
-                </div>
-                <div class="crs">
+              <div class="crs">
                 <a role="button" tabindex="0" aria-label="Close" href="#" class="dialog-close-button dialog-lightbox-close-button" onClick={handleClose}><i class="fas fa-times"></i></a>
                 </div>
+                <div class="contact-title">
+                  <h4 className="con-tit">Kindly Fillup Your Details-We will get back to you! </h4>
+                
+                </div>
+                
                 <div
                   id="respond"
                   class="comment-respond"
@@ -117,15 +119,15 @@ export default function FormDialog(props) {
                 >
                 <Form>
                 <div className="col-md-12">
-                  <Field type="text" name="first" placeholder="Name" />
+                  <Field type="text" name="first" placeholder="Name*" />
                   <ErrorMessage name="first" component="div" className="error" style={{color:'red'}} />
                 </div>
                 <div className="col-md-12">
-                  <Field type="email" name="email" placeholder="Email" />
+                  <Field type="email" name="email" placeholder="Email*" />
                   <ErrorMessage name="email" component="div" className="error" style={{color:'red'}} />
                 </div>
                 <div className="col-md-12">
-                  <Field type="text" name="phone" placeholder="Phone" />
+                  <Field type="text" name="phone" placeholder="Phone*" />
                   <ErrorMessage name="phone" component="div" className="error" style={{color:'red'}} />
                 </div>
                 <div className="col-md-12">
@@ -139,12 +141,7 @@ export default function FormDialog(props) {
                   />
                   <ErrorMessage name="yourMessage" component="div" className="error" style={{color:'red'}} />
                 </div>
-                <p className="comment-form-cookies-consent">
-                  <Field type="checkbox" name="wpCommentCookiesConsent" />
-                  <label htmlFor="wpCommentCookiesConsent">
-                    Save my name, email, and website in this browser for the next time.
-                  </label>
-                </p>
+                
                 <button type="submit"  disabled={isLoading}>
                 <div className="custom-btn">
                 {isLoading ? (

@@ -142,7 +142,7 @@ const Contact = () => {
             <div className="col-lg-8">
               <div className="contact-area">
                 <div className="contact-title">
-                  <h4>Send Us a Message</h4>
+                  <h4>Kindly Fillup Your Details - We will get back to you!</h4>
                 </div>
                 <div
                   id="respond"
@@ -155,7 +155,6 @@ const Contact = () => {
         email: '',
         phone: '',
         yourMessage: '',
-        wpCommentCookiesConsent: false,
         ID:"12"
       }}
       validationSchema={validationSchema}
@@ -169,15 +168,15 @@ const Contact = () => {
                       className="comment-form"
                     >
                     <div className="col-md-12">
-                    <Field type="text" name="name1" placeholder="Name" />
+                    <Field type="text" name="name1" placeholder="Name*" />
                     <ErrorMessage name="name1" component="div" className="error formErr" style={{color:'red'}} />
                     </div>
                     <div className="col-md-12">
-                    <Field type="email" name="email" placeholder="Email" />
+                    <Field type="email" name="email" placeholder="Email*" />
                     <ErrorMessage name="email" component="div" className="error" style={{color:'red'}}/>
                   </div>
                   <div className="col-md-12">
-                    <Field type="text" name="phone" placeholder="Phone" />
+                    <Field type="text" name="phone" placeholder="Phone*" />
                     <ErrorMessage name="phone" component="div" className="error" style={{color:'red'}} />
                   </div>
                   <div className="col-md-12">
@@ -190,12 +189,7 @@ const Contact = () => {
                     />
                     <ErrorMessage name="yourMessage" component="div" className="error" style={{color:'red'}}/>
                   </div>
-                  <p className="comment-form-cookies-consent">
-                    <Field type="checkbox" name="wpCommentCookiesConsent" />
-                    <label htmlFor="wpCommentCookiesConsent">
-                      Save my name, email, and website in this browser for the next time.
-                    </label>
-                  </p>
+                 
                   <button type="submit"  disabled={isLoading}>
                     <div className="custom-btn">
                     {isLoading ? (
