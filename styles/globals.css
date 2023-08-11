@@ -1148,7 +1148,7 @@ input[type="submit"].secondary:focus {
 @media (min-width: 768px) {
   .comment-form input[type="email"] {
     /* width: calc(50% - 10px); */
-    margin-left: 10px;
+    margin-left: 1px;
   }
 }
 .comment-form input[type="url"] {

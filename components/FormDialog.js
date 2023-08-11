@@ -6,10 +6,31 @@ import { Formik, Form, Field, ErrorMessage } from 'formik';
 import * as Yup from 'yup';
 
 const validationSchema = Yup.object().shape({
-  first: Yup.string().required('Name is required'),
-  email: Yup.string().email('Invalid email').required('Email is required'),
-  phone: Yup.string().required('Phone number is required'),
-  yourMessage: Yup.string().required('Comment is required'),
+  first: Yup
+  .string()
+  .trim()
+  .required('*Name is required')
+  .min(3, '*Name must be at least 3 characters')
+  .max(50, '*Name can be at most 50 characters'),
+  email:Yup
+  .string()
+  .trim()
+  .required('*Email is required')
+  .email('*Invalid email format')
+  .max(100, '*Email can be at most 100 characters'),
+  phone: Yup
+  .string()
+  .trim()
+  .required('*Mobile number is required')
+  .matches(/^[0-9]+$/, '*Mobile number must contain only digits')
+  .min(10, '*Mobile number must be at least 10 digits')
+  .max(15, '*Mobile number can be at most 15 digits'),
+
+  yourMessage: Yup.string()
+  .trim()
+  .required('*Text is required')
+  .min(10, '*Text must be at least 10 characters')
+  .max(500, '*Text can be at most 500 characters'),
 });
 export default function FormDialog(props) {
   const [open, setOpen] = useState(false);
@@ -31,6 +52,7 @@ export default function FormDialog(props) {
 
       // Reset the form
       resetForm();
+      handleClose();
     } catch (error) {
       // Handle error if needed
       console.error('Error:', error);
@@ -85,15 +107,15 @@ export default function FormDialog(props) {
                 <Form>
                 <div className="col-md-12">
                   <Field type="text" name="first" placeholder="Name" />
-                  <ErrorMessage name="first" component="div" className="error" />
+                  <ErrorMessage name="first" component="div" className="error" style={{color:'red'}} />
                 </div>
                 <div className="col-md-12">
                   <Field type="email" name="email" placeholder="Email" />
-                  <ErrorMessage name="email" component="div" className="error" />
+                  <ErrorMessage name="email" component="div" className="error" style={{color:'red'}} />
                 </div>
                 <div className="col-md-12">
                   <Field type="text" name="phone" placeholder="Phone" />
-                  <ErrorMessage name="phone" component="div" className="error" />
+                  <ErrorMessage name="phone" component="div" className="error" style={{color:'red'}} />
                 </div>
                 <div className="col-md-12">
                   <Field
@@ -104,7 +126,7 @@ export default function FormDialog(props) {
                     placeholder="Type Here Your Comment"
                     
                   />
-                  <ErrorMessage name="yourMessage" component="div" className="error" />
+                  <ErrorMessage name="yourMessage" component="div" className="error" style={{color:'red'}} />
                 </div>
                 <p className="comment-form-cookies-consent">
                   <Field type="checkbox" name="wpCommentCookiesConsent" />
