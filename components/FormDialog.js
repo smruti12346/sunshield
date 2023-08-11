@@ -1,4 +1,4 @@
-import { useEffect,useState } from "react";
+import React, { useEffect,useState } from "react";
 import Dialog from "@mui/material/Dialog";
 import DialogContent from "@mui/material/DialogContent";
 import axios from "axios";
@@ -30,14 +30,18 @@ const validationSchema = Yup.object().shape({
 
   yourMessage: Yup.string()
   .trim()
-  .required('*Text is required')
-  .min(10, '*Text must be at least 10 characters')
+  .min(5, '*Text must be at least 5 characters')
   .max(500, '*Text can be at most 500 characters'),
 });
 export default function FormDialog(props) {
+  const handleClose = () => {
+    setOpen(false);
+  };
+  const [isLoading, setIsLoading] = useState(false);
   const [open, setOpen] = useState(false);
   const handleSubmit = async (values, { resetForm }) => {
     try {
+      setIsLoading(true); // Set loading state to true
       const response = await axios.post(
         'https://sunshield.thecbdworld.org/wp-json/contact-form-7/v1/contact-forms/163/feedback',
         values,
@@ -54,6 +58,7 @@ export default function FormDialog(props) {
 
       // Reset the form
       resetForm();
+      setIsLoading(false); // Set loading state back to false
       handleClose();
      // Display a success popup
     toast.success('Submitted Successfully', {
@@ -62,15 +67,14 @@ export default function FormDialog(props) {
     } catch (error) {
       // Handle error if needed
       console.error('Error:', error);
+      setIsLoading(false); // Set loading state back to false in case of error
     }
   };
   const handleClickOpen = () => {
     setOpen(true);
   };
 
-  const handleClose = () => {
-    setOpen(false);
-  };
+ 
   useEffect(() => {
     props.inc > 0 ? setOpen(true) : setOpen(false);
   }, [props.inc]);
@@ -141,12 +145,18 @@ export default function FormDialog(props) {
                     Save my name, email, and website in this browser for the next time.
                   </label>
                 </p>
-                <button type="submit">
-                  <div className="custom-btn">
-                    <span>Submit Message</span>
-                    <i className="fas fa-angle-double-right"></i>
-                  </div>
-                </button>
+                <button type="submit"  disabled={isLoading}>
+                <div className="custom-btn">
+                {isLoading ? (
+                  <i className="fas fa-spinner fa-spin"></i> // Show loading spinner
+                ) : (
+                  <React.Fragment>
+                  <span>Submit Message</span>
+                  <i className="fas fa-angle-double-right"></i>
+                </React.Fragment>
+                )}
+                </div>
+              </button>
               </Form>
                   
                     </Formik>

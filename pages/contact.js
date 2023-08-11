@@ -30,8 +30,7 @@ const validationSchema = Yup.object().shape({
 
   yourMessage: Yup.string()
   .trim()
-  .required('*Text is required')
-  .min(10, '*Text must be at least 10 characters')
+  .min(5, '*Text must be at least 5 characters')
   .max(500, '*Text can be at most 500 characters'),
 });
 
@@ -39,8 +38,10 @@ const validationSchema = Yup.object().shape({
 
 
 const Contact = () => {
+  const [isLoading, setIsLoading] = useState(false);
   const handleSubmit = async (values, { resetForm }) => {
     try {
+      setIsLoading(true); // Set loading state to true
       const response = await axios.post(
         'https://sunshield.thecbdworld.org/wp-json/contact-form-7/v1/contact-forms/163/feedback',
         values,
@@ -54,9 +55,10 @@ const Contact = () => {
       );
       // Handle response if needed
       console.log('Response:', response.data);
-
+      setIsLoading(false); // Set loading state back to false
       // Reset the form
       resetForm();
+      
       // Display a success popup
     toast.success('Submitted Successfully', {
       position: toast.POSITION.TOP_CENTER,
@@ -64,6 +66,7 @@ const Contact = () => {
     } catch (error) {
       // Handle error if needed
       console.error('Error:', error);
+      setIsLoading(false); // Set loading state back to false in case of error
     }
   };
 
@@ -167,7 +170,7 @@ const Contact = () => {
                     >
                     <div className="col-md-12">
                     <Field type="text" name="name1" placeholder="Name" />
-                    <ErrorMessage name="name1" component="div" className="error" style={{color:'red'}} />
+                    <ErrorMessage name="name1" component="div" className="error formErr" style={{color:'red'}} />
                     </div>
                     <div className="col-md-12">
                     <Field type="email" name="email" placeholder="Email" />
@@ -193,10 +196,16 @@ const Contact = () => {
                       Save my name, email, and website in this browser for the next time.
                     </label>
                   </p>
-                  <button type="submit">
+                  <button type="submit"  disabled={isLoading}>
                     <div className="custom-btn">
+                    {isLoading ? (
+                        <i className="fas fa-spinner fa-spin"></i> // Show loading spinner
+                    ) : (
+                      <React.Fragment>
                       <span>Submit Message</span>
                       <i className="fas fa-angle-double-right"></i>
+                    </React.Fragment>
+                    )}
                     </div>
                   </button>
                     </Form>

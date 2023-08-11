@@ -1028,7 +1028,7 @@ textarea {
   display: block;
   padding: 0.7em;
   width: 100%;
-  margin-bottom: 1.25rem;
+  margin: 10px 0px ;
   outline: none;
 }
 
@@ -10921,4 +10921,8 @@ a:hover {
 .image-grid {
   border-radius: 25px;
   border: 1px solid #fdfdfd;
+}
+/* preloader of form */
+.loading .fa-spin {
+  animation: fa-spin 2s infinite linear; /* Apply rotating animation */
 }
