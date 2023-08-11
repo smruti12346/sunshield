@@ -1022,7 +1022,7 @@ textarea {
     rgba(255, 255, 255, 0),
     rgba(255, 255, 255, 0)
   );
-  border: 1px solid #ecf0f3;
+  border: 1px solid #000000;
   -webkit-border-radius: 3px;
   border-radius: 4px;
   display: block;
@@ -2912,6 +2912,7 @@ p > object:only-child {
 }
 
 .custom-btn {
+  margin-top: 33px;
   padding: 8px 24px;
   border-radius: 25px;
   text-align: center;
@@ -8383,12 +8384,13 @@ div#scrollbar::-webkit-scrollbar-thumb {
   height: 100%;
 }
 .contact-us .section-wrapper .main-addres {
-  background: url(/assets/images/contact-us/bg-image.jpg) no-repeat;
+  /* background: url(/assets/images/contact-us/bg-image.jpg) no-repeat; */
   background-position: bottom right;
   background-size: cover;
 }
 .contact-us .section-wrapper .main-addres h4 {
-  color: #fff !important;
+  color: #6e6161 !important;
+  text-align: center !important;
 }
 .contact-us .section-wrapper .rounch-addres h4 {
   color: #62e0c1 !important;
@@ -10936,4 +10938,14 @@ a:hover {
   margin-bottom: 25px;
   text-align: center;
   margin-top: 10px;
+}
+.con-tit1{
+  text-align: center;
+}
+.f-sub{
+  margin: 0 auto;
+  display: block;
+}
+.frfd{
+  margin-bottom: 20px !important;
 }

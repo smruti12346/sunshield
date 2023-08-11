@@ -95,8 +95,9 @@ export default function FormDialog(props) {
                 <a role="button" tabindex="0" aria-label="Close" href="#" class="dialog-close-button dialog-lightbox-close-button" onClick={handleClose}><i class="fas fa-times"></i></a>
                 </div>
                 <div class="contact-title">
-                  <h4 className="con-tit">Kindly Fillup Your Details-We will get back to you! </h4>
-                
+                <h4 className="con-tit1">{props.name}</h4>
+                  <h5 className="con-tit">Kindly Fillup Your Details-We will get back to you! </h5>
+                <h5></h5>
                 </div>
                 
                 <div
@@ -119,7 +120,7 @@ export default function FormDialog(props) {
                 >
                 <Form>
                 <div className="col-md-12">
-                  <Field type="text" name="first" placeholder="Name*" />
+                  <Field type="text" name="first" placeholder="Fullname*" />
                   <ErrorMessage name="first" component="div" className="error" style={{color:'red'}} />
                 </div>
                 <div className="col-md-12">
@@ -127,7 +128,7 @@ export default function FormDialog(props) {
                   <ErrorMessage name="email" component="div" className="error" style={{color:'red'}} />
                 </div>
                 <div className="col-md-12">
-                  <Field type="text" name="phone" placeholder="Phone*" />
+                  <Field type="text" name="phone" placeholder="Mobile Number*" />
                   <ErrorMessage name="phone" component="div" className="error" style={{color:'red'}} />
                 </div>
                 <div className="col-md-12">
@@ -135,20 +136,20 @@ export default function FormDialog(props) {
                     as="textarea"
                     id="comment-reply"
                     name="yourMessage"
-                    rows="9"
+                    rows="4"
                     placeholder="Type Here Your Comment"
                     
                   />
                   <ErrorMessage name="yourMessage" component="div" className="error" style={{color:'red'}} />
                 </div>
                 
-                <button type="submit"  disabled={isLoading}>
+                <button type="submit"  disabled={isLoading} className="f-sub">
                 <div className="custom-btn">
                 {isLoading ? (
                   <i className="fas fa-spinner fa-spin"></i> // Show loading spinner
                 ) : (
                   <React.Fragment>
-                  <span>Submit Message</span>
+                  <span>Submit </span>
                   <i className="fas fa-angle-double-right"></i>
                 </React.Fragment>
                 )}
