@@ -1,6 +1,6 @@
 import Feature from "@/components/Feature";
 import Support from "@/components/Support";
-import Testimonial from "@/components/Testimonial";
+// import Testimonial from "@/components/Testimonial";
 import Volunteer from "@/components/Volunteer";
 import Image from "next/image";
 import Link from "next/link";
@@ -104,7 +104,7 @@ const About = () => {
       </section>
       <Feature />
       <Support />
-      <Testimonial />
+      
     </>
   );
 };

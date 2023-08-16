@@ -10,7 +10,7 @@ const Header = () => {
     setMenu(false);
   };
   return (
-    <>
+    <React.Fragment>
       <div className="mobile-menu">
         <nav className="mobile-header primary-menu d-xl-none">
           <div className="header-logo">
@@ -233,16 +233,8 @@ const Header = () => {
                     </Link>
                     <ul>
                     <li>
-                        <Link href="/category/engineering-products">
-                          Engineering Products
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href="/category/handicrafts">Handicraft Products</Link>
-                      </li>
-                      <li>
                         <Link href="#">
-                          Food Products
+                          Agricultural Products
                           <i
                             className="fa fa-chevron-right"
                             style={{ float: "right", marginTop: "5px" }}
@@ -256,16 +248,35 @@ const Header = () => {
                             <Link href="/category/spices">Spices</Link>
                           </li>
                           <li>
+                            <Link href="/category/fresh-vegetables">
+                              Fresh Vegetables
+                            </Link>
+                          </li>               
+                        </ul>
+                      </li>
+                    <li>
+                        <Link href="/category/engineering-products">
+                          Engineering Products
+                        </Link>
+                      </li>
+                      
+                      <li>
+                        <Link href="#">
+                          Food Products
+                          <i
+                            className="fa fa-chevron-right"
+                            style={{ float: "right", marginTop: "5px" }}
+                          ></i>
+                        </Link>
+                        <ul>
+                        
+                          <li>
                             <Link href="/category/oil">Oil</Link>
                           </li>
                           <li>
                             <Link href="/category/fruits">Fresh Fruits</Link>
                           </li>
-                          <li>
-                            <Link href="/category/fresh-vegetables">
-                              Fresh Vegetables
-                            </Link>
-                          </li>                         
+                                                  
                           <li>
                             <Link href="/category/marine-items">
                               Marine Items
@@ -278,7 +289,9 @@ const Header = () => {
                             </li>                        
                         </ul>
                       </li>
-                   
+                      <li>
+                      <Link href="/category/handicrafts">Handicraft Products</Link>
+                    </li>
                     </ul>
                   </li>
                   <li>
@@ -359,7 +372,8 @@ const Header = () => {
               </ul> */}
               <Link
                 href="/contact"
-                className="custom-btn"
+                className="custom-btn nav-btn"
+                
               >
                 Contact Us
               </Link>
@@ -367,7 +381,7 @@ const Header = () => {
           </header>
         </div>
       </div>
-    </>
+    </React.Fragment>
   );
 };
 

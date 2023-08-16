@@ -109,14 +109,26 @@ const Contact = () => {
             </section>
 
             <section className="contact-us padding-tb"  style={{
+                position: "relative", 
                 backgroundImage: "url(/assets/images/footer/bg-image.jpg)",
                 backgroundPosition: "center bottom",
                 overflow: "hidden",
-                
+               
+                             
                 // backgroundColor: "rgba(0, 0, 0, 0.9)",
                 
               }} >
                 <div className="container" style={{
+                    // position: "absolute",
+                    // top: 0,
+                    // left: 0,
+                    // width: "100%",
+                    // height: "100%",
+                    
+                    // backgroundColor: "rgba(0, 0, 0, 0.5)",
+                    // backgroundColor:"rgba(76,175,80,.4)",
+                   
+                    // backgroundColor:"rgba(139,195,74,.5)",
                     marginBottom:"30px",
                     
                   }} >
@@ -158,7 +170,7 @@ const Contact = () => {
                     <div className="row">
                         <div className="col-md-12">
                            
-                            <h6 style={{ color: "black", textAlign: "center",fontSize:"20px" }}>Kindly Fillup Your Details - We will get back to you!</h6>
+                            <h6 style={{ color: "black", textAlign: "center",fontSize:"20px",marginTop:"138px" }}>Kindly Fillup Your Details - We will get back to you!</h6>
                         </div>
                     </div>
                 </div>

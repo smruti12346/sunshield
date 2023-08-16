@@ -1,4 +1,5 @@
 import Head from "next/head";
+import React from "react";
 import Image from "next/image";
 import { Inter } from "next/font/google";
 import dynamic from "next/dynamic";
@@ -12,7 +13,7 @@ const Support = dynamic(() => import("@/components/Support"));
 const Testimonial = dynamic(() => import("@/components/Testimonial"));
 export default function Home() {
   return (
-    <>
+    <React.Fragment>
       <Head>
         <title>Home Page</title>
         <meta
@@ -35,6 +36,6 @@ export default function Home() {
       <Support />
       {/* <Blog /> */}
       <Testimonial />
-    </>
+    </React.Fragment>
   );
 }

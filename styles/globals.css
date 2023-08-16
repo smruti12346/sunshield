@@ -92,6 +92,7 @@ html {
 }
 
 body {
+  width: 100%;
   margin: 0;
   margin-top: 66px;
   font-size: 16px;
@@ -10948,4 +10949,8 @@ a:hover {
 }
 .frfd{
   margin-bottom: 20px !important;
+}
+.nav-btn{
+  padding: 10px 18px !important;
+  margin-bottom: 28px;
 }

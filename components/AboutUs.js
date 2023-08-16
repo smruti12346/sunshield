@@ -3,12 +3,12 @@ import React from "react";
 import Link from "next/link";
 function AboutUs() {
   return (
-    <>
+    <React.Fragment>
       {/* Our project section start here */}
       <section
         className="project-section padding-tb"
         style={{
-          backgroundImage: "url(assets/images/project/bg-image1.jpg)",
+          // backgroundImage: "url(assets/images/project/bg-image1.jpg)",
           backgroundSize: "cover",
           overflow: "hidden",
         }}
@@ -74,7 +74,7 @@ function AboutUs() {
           </div>
         </div>
       </section>
-    </>
+    </React.Fragment>
   );
 }
 

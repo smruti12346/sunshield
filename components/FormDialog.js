@@ -120,16 +120,21 @@ export default function FormDialog(props) {
                 >
                 <Form>
                 <div className="col-md-12">
-                  <Field type="text" name="first" placeholder="Fullname*" />
-                  <ErrorMessage name="first" component="div" className="error" style={{color:'red'}} />
+                  <ErrorMessage name="first" component="div" className="error" style={{color:'red',fontSize:'13px',marginBottom:'-10px'}} />
+                  <Field type="text" name="first" placeholder="Full Name" />
+                  <p style={{marginTop:'-13px',fontSize:'11px',color:'#033666'}}><span style={{color:'red'}}>*</span> This field is mandatory</p>
+                  
+                </div>
+                
+                <div className="col-md-12">
+                <ErrorMessage name="phone" component="div" className="error" style={{color:'red',fontSize:'13px',marginTop:'-21px'}} />
+                <Field type="text" name="phone" placeholder="Mobile Number"  style={{marginTop:'-3px'}}/>
+                <p style={{marginTop:'-13px',fontSize:'11px',color:'#033666'}}><span style={{color:'red'}}>*</span> This field is mandatory</p>
                 </div>
                 <div className="col-md-12">
-                  <Field type="email" name="email" placeholder="Email*" />
-                  <ErrorMessage name="email" component="div" className="error" style={{color:'red'}} />
-                </div>
-                <div className="col-md-12">
-                  <Field type="text" name="phone" placeholder="Mobile Number*" />
-                  <ErrorMessage name="phone" component="div" className="error" style={{color:'red'}} />
+                <ErrorMessage name="email" component="div" className="error" style={{color:'red',fontSize:'13px',marginTop:'-21px'}} />
+                <Field type="email" name="email" placeholder="Email" style={{marginTop:'-3px'}} />
+                  
                 </div>
                 <div className="col-md-12">
                   <Field
