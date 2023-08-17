@@ -27,13 +27,13 @@ const About = () => {
               <ol class="breadcrumb white mt-10 text-center">
                 <li>
                   <Link href="/">
-                    <i class="fa fa-home"></i>
+                    <i class="fa fa-home"></i>&nbsp;
                   </Link>
                 </li>
                 <li>
-                  <Link href="/">Home</Link> /{" "}
+                  <Link href="/"> &nbsp;Home</Link> /{" "}
                 </li>
-                <li class="active"> About Us /</li>
+                <li class="active"> &nbsp;About Us /</li>
               </ol>
             </div>
           </div>

@@ -17,7 +17,7 @@ const validationSchema = Yup.object().shape({
   email:Yup
   .string()
   .trim()
-  .required('*Email is required')
+
   .email('*Invalid email format')
   .max(100, '*Email can be at most 100 characters'),
   phone: Yup
@@ -96,7 +96,7 @@ export default function FormDialog(props) {
                 </div>
                 <div class="contact-title">
                 <h4 className="con-tit1">{props.name}</h4>
-                  <h5 className="con-tit">Kindly Fillup Your Details-We will get back to you! </h5>
+                  <h5 className="con-tit">Kindly fillup your details-We will get back to you! </h5>
                 <h5></h5>
                 </div>
                 
@@ -134,6 +134,7 @@ export default function FormDialog(props) {
                 <div className="col-md-12">
                 <ErrorMessage name="email" component="div" className="error" style={{color:'red',fontSize:'13px',marginTop:'-21px'}} />
                 <Field type="email" name="email" placeholder="Email" style={{marginTop:'-3px'}} />
+                <p style={{marginTop:'-13px',fontSize:'11px',color:'#033666'}}><span style={{color:'red'}}>*</span> e:g-abc@gmail.com</p>
                   
                 </div>
                 <div className="col-md-12">

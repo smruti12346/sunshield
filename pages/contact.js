@@ -19,7 +19,7 @@ const validationSchema = Yup.object().shape({
     email: Yup
         .string()
         .trim()
-        .required('*Email is required')
+       
         .email('*Invalid email format')
         .max(100, '*Email can be at most 100 characters'),
     phone: Yup

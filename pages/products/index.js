@@ -54,13 +54,13 @@ const Product = ({ product_data }) => {
               <ol class="breadcrumb white mt-10 text-center">
                 <li>
                   <Link href="/">
-                    <i class="fa fa-home"></i>
+                    <i class="fa fa-home"></i>&nbsp;
                   </Link>
                 </li>
                 <li>
-                  <Link href="/">Home</Link> /{" "}
+                  <Link href="/">&nbsp;Home</Link> /&nbsp;{" "}
                 </li>
-                <li class="active"> Products /</li>
+                <li class="active"> &nbsp;Products /</li>
               </ol>
             </div>
           </div>

@@ -44,14 +44,14 @@ const Single = ({ data }) => {
               <ol class="breadcrumb white mt-10 text-center">
                 <li>
                   <Link href="/">
-                    <i class="fa fa-home"></i>
+                    <i class="fa fa-home"></i>&nbsp;
                   </Link>
                 </li>
                 <li>
-                  <Link href="/">Home</Link> /{" "}
+                  <Link href="/">&nbsp;Home&nbsp;</Link> /{" "}
                 </li>
-                <li class="active"> Products / </li>
-                <li class="active"> {data[0].title.rendered}/</li>
+                <li class="active">&nbsp; Products &nbsp; / </li>
+                <li class="active"> &nbsp;{data[0].title.rendered}&nbsp;/</li>
               </ol>
             </div>
           </div>
