@@ -35,7 +35,7 @@ export default function Home() {
       <WhychooseUs />
       <Support />
       {/* <Blog /> */}
-      <Testimonial />
+ 
     </React.Fragment>
   );
 }

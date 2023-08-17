@@ -109,7 +109,7 @@ const Contact = () => {
             </section>
 
             <section className="contact-us padding-tb"  style={{
-                backgroundImage: "url(/assets/images/banner/world2.png)",
+                backgroundImage: "url(/assets/images/footer/bg-image.jpg)",
                 backgroundPosition: "center bottom",
                 overflow: "hidden",
                 // backgroundColor: "rgba(0, 0, 0, 0.4)",

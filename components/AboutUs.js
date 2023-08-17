@@ -40,7 +40,7 @@ function AboutUs() {
                     alt="project"
                     width={500}
                     height={500}
-                  />
+      />
                 </a>
               </div>
               <div

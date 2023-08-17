@@ -5,6 +5,7 @@ import { url } from "@/Auth";
 import FormDialog from "@/components/FormDialog";
 import { useState } from "react";
 import Link from "next/link";
+import React from "react";
 export const getServerSideProps = async (slug) => {
   const res = await fetch(`${api_url}/pages?slug=${slug.query.single}`);
   const data = await res.json();
@@ -20,7 +21,7 @@ const Single = ({ data }) => {
     setIncr(incr + 1);
   };
   return (
-    <>
+    <React.Fragment>
       <FormDialog
         name={data[0].title.rendered}
         inc={incr}
@@ -136,7 +137,7 @@ const Single = ({ data }) => {
           </div>
         </div>
       </section>
-    </>
+    </React.Fragment>
   );
 };
 

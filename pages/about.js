@@ -4,14 +4,16 @@ import Support from "@/components/Support";
 import Volunteer from "@/components/Volunteer";
 import Image from "next/image";
 import Link from "next/link";
+import React from "react";
 const About = () => {
   return (
-    <>
+    <React.Fragment>
       
       <section class="inner-header bg-green">
         <div class="container-fluid p-0">
           <Image
-            src="/assets/images/header/profile.jpg"
+            alt="profile image"
+            src="/assets/images/header/profile1.jpg"
             class="img-fullwidth"
             width={1200}
             height={300}
@@ -68,7 +70,7 @@ const About = () => {
               >
                 <a href="#">
                   <Image
-                    src="/assets/images/project/022.webp"
+                    src="/assets/images/project/021.jpg"
                     alt="project"
                     width={500}
                     height={500}
@@ -105,7 +107,7 @@ const About = () => {
       <Feature />
       <Support />
       
-    </>
+    </React.Fragment>
   );
 };
 
