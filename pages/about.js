@@ -14,7 +14,7 @@ const About = () => {
           <Image
             alt="profile image"
             src="/assets/images/header/profile1.jpg"
-            class="img-fullwidth"
+            class="img-fullwidth ab-img"
             width={1200}
             height={300}
             style={{ width: "100%", height: "auto" }}
@@ -22,8 +22,8 @@ const About = () => {
         </div>
 
         <div class="section-content">
-          <div class="row">
-            <div class="col-sm-12">
+          <div class="row1">
+            <div class="col-sm-121">
               <ol class="breadcrumb white mt-10 text-center">
                 <li>
                   <Link href="/">

@@ -25,7 +25,7 @@ const Feature = () => {
               <div class="post-inner feature-item">
                 <div class="post-thumb">
                   <Image
-                    src="/assets/images/feature/png/01.png"
+                    src="/assets/images/feature/png/pr.png"
                     width={400}
                     height={400}
                     alt="feature"
@@ -47,7 +47,7 @@ const Feature = () => {
               <div class="post-inner feature-item">
                 <div class="post-thumb">
                   <Image
-                    src="/assets/images/feature/png/02.png"
+                    src="/assets/images/feature/png/Vast Product Portfolio-01.png"
                     width={400}
                     height={400}
                     alt="feature"
@@ -69,7 +69,7 @@ const Feature = () => {
               <div class="post-inner feature-item">
                 <div class="post-thumb">
                   <Image
-                    src="/assets/images/feature/png/03.png"
+                    src="/assets/images/feature/png/Efficient Cargo Logistics-01.png"
                     width={400}
                     height={400}
                     alt="feature"
@@ -91,7 +91,7 @@ const Feature = () => {
               <div class="post-inner feature-item">
                 <div class="post-thumb">
                   <Image
-                    src="/assets/images/feature/png/04.png"
+                    src="/assets/images/feature/png/Sustainability Focus-01.png"
                     width={400}
                     height={400}
                     alt="feature"

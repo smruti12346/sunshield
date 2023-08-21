@@ -26,12 +26,12 @@ const Single = ({ data }) => {
         name={data[0].title.rendered}
         inc={incr}
       />
-      <section class="inner-header bg-green">
+      <section class="inner-header bg-green ">
         <div class="container-fluid p-0">
           <Image
             alt="profile"
             src="/assets/images/header/profile.jpg"
-            class="img-fullwidth"
+            class="img-fullwidth  "
             width={1200}
             height={300}
             style={{ width: "100%", height: "auto" }}
@@ -39,8 +39,8 @@ const Single = ({ data }) => {
         </div>
 
         <div class="section-content">
-          <div class="row">
-            <div class="col-sm-12">
+          <div class="row1">
+            <div class="col-sm-121">
               <ol class="breadcrumb white mt-10 text-center">
                 <li>
                   <Link href="/">

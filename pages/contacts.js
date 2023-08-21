@@ -170,7 +170,7 @@ const Contact = () => {
                     <div className="row">
                         <div className="col-md-12">
                            
-                            <h6 style={{ color: "black", textAlign: "center",fontSize:"20px",marginTop:"138px" }}>Kindly Fillup Your Details - We will get back to you!</h6>
+                            <h6 style={{ color: "black", textAlign: "center",fontSize:"20px",marginTop:"138px" }}>Kindly fillup your details - We will get back to you!</h6>
                         </div>
                     </div>
                 </div>

@@ -46,9 +46,9 @@ function WhychooseUs() {
                 <div className="post-inner">
                   <div className="post-thumb">
                     <Image
-                      width={80}
-                      height={80}
-                      src="/assets/images/feature/png/01.png"
+                      width={200}
+                      height={200}
+                      src="/assets/images/feature/png/pr.png"
                       alt="feature"
                     />
                   </div>
@@ -73,7 +73,7 @@ function WhychooseUs() {
                     <Image
                       width={80}
                       height={80}
-                      src="/assets/images/feature/png/02.png"
+                      src="/assets/images/feature/png/Vast Product Portfolio-01.png"
                       alt="feature"
                     />
                   </div>
@@ -98,7 +98,7 @@ function WhychooseUs() {
                     <Image
                       width={80}
                       height={80}
-                      src="/assets/images/feature/png/03.png"
+                      src="/assets/images/feature/png/Efficient Cargo Logistics-01.png"
                       alt="feature"
                     />
                   </div>

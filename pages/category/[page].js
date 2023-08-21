@@ -52,9 +52,10 @@ const Page = ({ product_data, desc }) => {
         name={title}
         inc={incr}
       />
-      <section class="inner-header bg-green">
+      <section class="inner-header bg-green ab-img1">
         <div class="container-fluid p-0">
           <Image
+          alt="profile-image"
             src="/assets/images/header/profile.jpg"
             class="img-fullwidth"
             width={1200}
@@ -64,8 +65,8 @@ const Page = ({ product_data, desc }) => {
         </div>
 
         <div class="section-content">
-          <div class="row">
-            <div class="col-sm-12">
+          <div class="row1">
+            <div class="col-sm-121">
               <ol class="breadcrumb white mt-10 text-center">
                 <li>
                   <Link href="/">

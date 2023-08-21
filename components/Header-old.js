@@ -1,9 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
-
+import React from "react";
 export default function Header() {
   return (
-    <>
+    <React.Fragment>
       <div className="box-header">
         <header className="header-section style-2 d-xl-block d-none">
           <div className="header-top">
@@ -180,6 +180,6 @@ export default function Header() {
           </div>
         </header>
       </div>
-    </>
+    </React.Fragment>
   );
 }

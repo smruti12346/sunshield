@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
+
+
 const Header = () => {
   const [menu, setMenu] = useState(false);
   const handleMenu = () => {
@@ -228,72 +230,73 @@ const Header = () => {
                     <Link href="/about">About</Link>
                   </li>
                   <li>
-                    <Link href="/products">
-                      Products <i className="fa fa-chevron-down"></i>
-                    </Link>
-                    <ul>
-                    <li>
-                        <Link href="#">
-                          Agricultural Products
-                          <i
-                            className="fa fa-chevron-right"
-                            style={{ float: "right", marginTop: "5px" }}
-                          ></i>
-                        </Link>
-                        <ul>
-                        <li>
-                            <Link href="/category/dal">Dal</Link>
-                          </li>
-                          <li>
-                            <Link href="/category/spices">Spices</Link>
-                          </li>
-                          <li>
-                            <Link href="/category/fresh-vegetables">
-                              Fresh Vegetables
-                            </Link>
-                          </li>               
-                        </ul>
-                      </li>
-                    <li>
-                        <Link href="/category/engineering-products">
-                          Engineering Products
-                        </Link>
-                      </li>
-                      
-                      <li>
-                        <Link href="#">
-                          Food Products
-                          <i
-                            className="fa fa-chevron-right"
-                            style={{ float: "right", marginTop: "5px" }}
-                          ></i>
-                        </Link>
-                        <ul>
-                        
-                          <li>
-                            <Link href="/category/oil">Oil</Link>
-                          </li>
-                          <li>
-                            <Link href="/category/fruits">Fresh Fruits</Link>
-                          </li>
-                                                  
-                          <li>
-                            <Link href="/category/marine-items">
-                              Marine Items
-                            </Link>
-                          </li>
-                          <li>
-                            <Link href="/category/other-food-items">
-                               Other Food Items  
-                            </Link> 
-                            </li>                        
-                        </ul>
-                      </li>
-                      <li>
-                      <Link href="/category/handicrafts">Handicraft Products</Link>
-                    </li>
-                    </ul>
-                  </li>
+<Link href="/products">
+  Products <i className="fa fa-chevron-down"></i>
+</Link>
+<ul>
+<li>
+    <Link href="#">
+      Agricultural Products
+      <i
+        className="fa fa-chevron-right"
+        style={{ float: "right", marginTop: "5px" }}
+      ></i>
+    </Link>
+    <ul>
+    <li>
+        <Link href="/category/dal">Dal</Link>
+      </li>
+      <li>
+        <Link href="/category/spices">Spices</Link>
+      </li>
+      <li>
+        <Link href="/category/fresh-vegetables">
+          Fresh Vegetables
+        </Link>
+      </li>               
+    </ul>
+  </li>
+<li>
+    <Link href="/category/engineering-products">
+      Engineering Products
+    </Link>
+  </li>
+  
+  <li>
+    <Link href="#">
+      Food Products
+      <i
+        className="fa fa-chevron-right"
+        style={{ float: "right", marginTop: "5px" }}
+      ></i>
+    </Link>
+    <ul>
+    
+      <li>
+        <Link href="/category/oil">Oil</Link>
+      </li>
+      <li>
+        <Link href="/category/fruits">Fresh Fruits</Link>
+      </li>
+                              
+      <li>
+        <Link href="/category/marine-items">
+          Marine Items
+        </Link>
+      </li>
+      <li>
+        <Link href="/category/other-food-items">
+           Other Food Items  
+        </Link> 
+        </li>                        
+    </ul>
+  </li>
+  <li>
+  <Link href="/category/handicrafts">Handicraft Products</Link>
+</li>
+</ul>
+</li>
+
                   <li>
                     <Link
                       onClick={handleClose}
@@ -386,3 +389,4 @@ const Header = () => {
 };
 
 export default Header;
+// 258

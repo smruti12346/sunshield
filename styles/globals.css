@@ -10954,3 +10954,69 @@ a:hover {
   padding: 10px 18px !important;
   margin-bottom: 28px;
 }
+
+/* responsive css */
+/* Apply general styling to the image */
+/* .img-fullwidth { */
+  /* max-width: 100%; */
+  /* height: auto; */
+/* } */
+
+/* Adjust breadcrumb spacing for smaller screens */
+/* .breadcrumb { */
+  /* margin-top: 10px; */
+/* } */
+
+/* Center breadcrumb items for smaller screens */
+/* .breadcrumb.text-center { */
+  /* text-align: center; */
+/* } */
+
+/* Adjust margin for the list items in the breadcrumb */
+/* .breadcrumb li { */
+  /* margin: 0 5px; */
+/* } */
+/*  */
+/* Apply responsive styles for tablet screens */
+@media (max-width: 768px) {
+  .ab-img{
+    margin-top: 99px;
+  }
+  .ab-img1{
+    margin-top: 100px;
+  }
+  .breadcrumb li {
+    margin: 0 3px;
+  }
+}
+/* navbar dropdown responsive */
+/* Add this CSS to your stylesheet or style tag */
+@media screen and (max-width: 768px) {
+  .submenu {
+    display: none;
+    position: static;
+    width: 100%;
+    background-color: #fff;
+    border-top: 1px solid #ccc;
+  }
+
+  .menu-link {
+    cursor: pointer;
+  }
+
+  .menu-item.active .submenu {
+    display: block;
+  }
+
+  .submenu li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+
+  .submenu li:last-child {
+    border-bottom: none;
+  }
+}
+.foot-sign{
+  text-align: left !important;
+}
