@@ -5,6 +5,7 @@ import { api_url, url } from "@/Auth";
 import Link from "next/link";
 import Sidebar from "@/components/Sidebar";
 import FormDialog from "@/components/FormDialog";
+import React from "react";
 const cat = [
   { name: "fresh-vegetables", id: 8 },
   { name: "fruits", id: 7 },
@@ -16,6 +17,16 @@ const cat = [
   { name: "oil", id: 14 },
   { name: "marine-items", id: 15 },
   { name: "other-food-items", id: 16 },
+  { name: "hybrid-solar-powerplant", id: 33 },
+  { name: "agricultural-products", id: 30 },
+  { name: "food-products", id: 36 },
+  { name: "honey", id: 38 },
+  { name: "solar-water-heater", id: 37 },
+  { name: "solar-water-pumps", id: 32 },
+  { name: "street-lights", id: 31 },
+  
+
+ 
 ];
 export const getServerSideProps = async (slug) => {
   const [catObj] = cat.filter((item) => item.name == slug.query.page);
@@ -47,7 +58,7 @@ const Page = ({ product_data, desc }) => {
     console.log(product_data);
   }, [product_data]);
   return (
-    <>
+    <React.Fragment>
       <FormDialog
         name={title}
         inc={incr}
@@ -214,7 +225,7 @@ const Page = ({ product_data, desc }) => {
           </div>
         </div>
       </section>
-    </>
+    </React.Fragment>
   );
 };
 export default Page;

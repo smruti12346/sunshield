@@ -26,7 +26,7 @@ function Catagory() {
               <div className="post-inner custom-btn">
                 <div className="post-content ">
                   <h4>
-                    <Link href={`/category/dal`}>Dal</Link>
+                    <Link href={`/category/agricultural-products`}>Agricultural Products</Link>
                   </h4>
                 </div>
               </div>
@@ -39,7 +39,7 @@ function Catagory() {
               <div className="post-inner custom-btn">
                 <div className="post-content ">
                   <h4>
-                    <Link href={`/category/spices`}>Spices</Link>
+                    <Link href={`/category/engineering-products`}>Engineering Products</Link>
                   </h4>
                 </div>
               </div>
@@ -52,7 +52,7 @@ function Catagory() {
               <div className="post-inner custom-btn">
                 <div className="post-content ">
                   <h4>
-                    <Link href={`/category/oil`}>Oil</Link>
+                    <Link href={`/category/food-products`}>Food Product</Link>
                   </h4>
                 </div>
               </div>
@@ -65,80 +65,13 @@ function Catagory() {
               <div className="post-inner custom-btn">
                 <div className="post-content">
                   <h4>
-                    <Link href="/category/fruits">Fresh Fruits</Link>
+                    <Link href="/category/fruits">Handicraft Product</Link>
                   </h4>
                 </div>
               </div>
             </div>
-            <div
-              className="post-item"
-              data-aos="fade-down"
-              data-aos-duration={700}
-            >
-              <div className="post-inner custom-btn">
-                <div className="post-content">
-                  <h4>
-                    <Link href="/category/fresh-vegetables">
-                      Fresh Vegetables
-                    </Link>
-                  </h4>
-                </div>
-              </div>
-            </div>
-            <div
-              className="post-item"
-              data-aos="fade-left"
-              data-aos-duration={700}
-            >
-              <div className="post-inner custom-btn">
-                <div className="post-content ">
-                  <h4>
-                    <Link href={`/category/marine-items`}>Marine Items</Link>
-                  </h4>
-                </div>
-              </div>
-            </div>
-            <div
-              className="post-item"
-              data-aos="fade-left"
-              data-aos-duration={700}
-            >
-              <div className="post-inner custom-btn">
-                <div className="post-content ">
-                  <h4>
-                    <Link href={`/category/other-food-items`}>Other Food Items</Link>
-                  </h4>
-                </div>
-              </div>
-            </div>
-            <div
-              className="post-item"
-              data-aos="fade-right"
-              data-aos-duration={700}
-            >
-              <div className="post-inner custom-btn">
-                <div className="post-content">
-                  <h4>
-                    <Link href="/category/engineering-products">
-                      Engineering Products
-                    </Link>
-                  </h4>
-                </div>
-              </div>
-            </div>
-            <div
-              className="post-item"
-              data-aos="fade-right"
-              data-aos-duration={700}
-            >
-              <div className="post-inner custom-btn">
-                <div className="post-content">
-                  <h4>
-                    <Link href="/category/handicrafts">Handicraft Products</Link>
-                  </h4>
-                </div>
-              </div>
-            </div>
+            
+            
           
           </div>
         </div>

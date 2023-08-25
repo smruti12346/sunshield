@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-export default function Footer() {
+export default function Footers() {
   return (
     <div>
       {/* footer section start here */}
@@ -15,7 +15,7 @@ export default function Footer() {
         >
           <div className="container">
             <div className="bottom row justify-content-center">
-              <div className="col-xl-6 col-lg-6 col-12 text-center">
+              <div className="col-xl-5 col-lg-5 col-12 text-center ">
                 <div className="bottom-item">
                   <div className="footer-logo">
                     <Link href="/">
@@ -36,50 +36,7 @@ export default function Footer() {
                   </p>
                 </div>
               </div>
-              <div className="col-xl-3 col-lg-3 col-6 text-center">
-                <div className="bottom-item flt">
-                  <h5 className="test-center">Product Categories</h5>
-                  <ul
-                    className="footer-menu"
-                    style={{ display: "block" }}
-                  >
-                     <li>
-                      <Link
-                        href="/category/dal"
-                        class="custom-btn"
-                      >
-                        Agricultural Products{" "}
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        href="/category/spices"
-                        class="custom-btn"
-                      >
-                       Engineering Products
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        href="/category/oil"
-                        class="custom-btn"
-                      >
-                       Food Products{" "}
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        href="/category/fruits"
-                        class="custom-btn"
-                      >
-                        Handicraft Products
-                      </Link>
-                    </li>
-                    
-                  </ul>
-                </div>
-              </div>
-              <div className="col-xl-3 col-lg-3 col-6 text-center">
+              <div className="col-xl-2 col-lg-3 col-6">
                 <div className="bottom-item flt">
                   <h5 className="test-center">Quick Links</h5>
                   <ul
@@ -89,7 +46,7 @@ export default function Footer() {
                      <li>
                       <Link
                         href="/category/dal"
-                        class="custom-btn"
+                        class="custom-btn1"
                       >
                         Home
                       </Link>
@@ -97,7 +54,7 @@ export default function Footer() {
                     <li>
                       <Link
                         href="/category/spices"
-                        class="custom-btn"
+                        class="custom-btn1"
                       >
                        About Us
                       </Link>
@@ -105,7 +62,7 @@ export default function Footer() {
                     <li>
                       <Link
                         href="/category/oil"
-                        class="custom-btn"
+                        class="custom-btn1"
                       >
                      Certificate
                       </Link>
@@ -113,7 +70,7 @@ export default function Footer() {
                     <li>
                       <Link
                         href="/category/fruits"
-                        class="custom-btn"
+                        class="custom-btn1"
                       >
                         Blog
                       </Link>
@@ -122,6 +79,105 @@ export default function Footer() {
                   </ul>
                 </div>
               </div>
+              <div className="col-xl-5 col-lg-3 col-3">
+                <div className="bottom-item flt">
+                  <h5 className="test-center">Products Categories</h5>
+                  <div className="row">
+                  <div className="col-xl-6 col-lg-6 col-6 ">
+                  <ul
+                  className="footer-menu"
+                  style={{ display: "block" }}
+                >
+
+                <li>
+                <Link
+                  href="/category/dal"
+                  class="custom-btn1"
+                >
+                  Dal{" "}
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/category/spices"
+                  class="custom-btn1"
+                >
+               spices
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/category/oil"
+                  class="custom-btn1"
+                >
+               oil
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/category/fruits"
+                  class="custom-btn1"
+                >
+                fruits
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/category/fresh-vegetables"
+                  class="custom-btn1"
+                >
+               Vegetables
+                </Link>
+              </li>
+                  </ul>
+                  </div>
+                  <div className="col-xl-6 col-lg-6 col-6 ">
+                  <ul
+                  className="footer-menu"
+                  style={{ display: "block" }}
+                >
+
+                <li>
+                <Link
+                class="custom-btn1"
+                  href="/category/solar"
+                >
+                  Solar
+                </Link>
+              </li>
+              <li>
+  <Link 
+  class="custom-btn1"
+  href="/category/street-lights"> 
+  Street Lights</Link>
+</li>
+<li>
+<Link 
+class="custom-btn1"
+href="/category/solar-water-heater">
+Solar Water Heater
+</Link>
+</li> 
+<li>
+  <Link 
+  class="custom-btn1"
+  href="/category/solar-water-pumps"> 
+  Solar Water Pumps </Link>
+</li>
+
+<li>
+<Link
+class="custom-btn1" 
+href="/category/hybrid-solar-powerplant">
+Hybrid Solar Powerplant</Link>
+</li>
+                  </ul>
+                  </div>
+                  </div>
+            
+                </div>
+              </div>
+              
             </div>
             <div className="row footer-bottom">
               <div className="col-xl-4 col-lg-6 col-12">

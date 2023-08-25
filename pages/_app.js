@@ -9,6 +9,7 @@ import "@/public/assets/css/fontawesome.css";
 import { useRouter } from "next/router";
 import CircularProgress from "@mui/material/CircularProgress";
 import { Backdrop } from "@mui/material";
+import Footers from "@/components/Footers";
 const Header = dynamic(() => import("@/components/Header"));
 const Footer = dynamic(() => import("@/components/Footer"));
 export const Loader = () => {
@@ -43,7 +44,7 @@ export default function App({ Component, pageProps }) {
     <React.Fragment>
       <Header />
       {loading ? <Loader /> : <Component {...pageProps} />}
-      <Footer />
+      <Footers/>
     </React.Fragment>
   );
 }

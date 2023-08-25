@@ -82,7 +82,9 @@ ul.right li{float:left;}
   color: #fff;
   border-radius: 50%;
   transition: all .3s ease;}
-.flt ul li{float:left;padding: 5px;}
+.flt ul li{
+  /* float:left; */
+  padding: 5px;}
 .footer-bottom1{background-color: #DCB451;padding:10px 0px;}
 html {
   font-family: sans-serif;
@@ -5350,7 +5352,7 @@ div#scrollbar::-webkit-scrollbar-thumb {
   background: #f6f6f6;
 }
 .feature-section .section-wrapper {
-  margin: -5px;
+  margin: 24px;
   justify-content: center;
 }
 .feature-section .section-wrapper .post-item {

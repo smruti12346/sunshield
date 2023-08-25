@@ -235,7 +235,7 @@ const Header = () => {
 </Link>
 <ul>
 <li>
-    <Link href="#">
+    <Link href="/category/agricultural-products">
       Agricultural Products
       <i
         className="fa fa-chevron-right"
@@ -250,6 +250,10 @@ const Header = () => {
         <Link href="/category/spices">Spices</Link>
       </li>
       <li>
+      <Link href="/category/fruits">Fresh Fruits</Link>
+    </li>
+          
+      <li>
         <Link href="/category/fresh-vegetables">
           Fresh Vegetables
         </Link>
@@ -259,11 +263,34 @@ const Header = () => {
 <li>
     <Link href="/category/engineering-products">
       Engineering Products
+      <i
+        className="fa fa-chevron-right"
+        style={{ float: "right", marginTop: "5px" }}
+      ></i>
     </Link>
+    <ul>
+    <li>
+        <Link href="/category/street-lights"> Street Lights</Link>
+      </li>
+      <li>
+      <Link href="/category/solar-water-heater">
+      Solar Water Heater
+      </Link>
+    </li> 
+      <li>
+        <Link href="/category/solar-water-pumps"> Solar Water Pumps </Link>
+      </li>
+     
+      <li>
+      <Link href="/category/hybrid-solar-powerplant">Hybrid Solar Powerplant</Link>
+    </li>
+          
+                   
+    </ul>
   </li>
   
   <li>
-    <Link href="#">
+    <Link href="/category/food-products">
       Food Products
       <i
         className="fa fa-chevron-right"
@@ -276,14 +303,16 @@ const Header = () => {
         <Link href="/category/oil">Oil</Link>
       </li>
       <li>
-        <Link href="/category/fruits">Fresh Fruits</Link>
-      </li>
-                              
+      <Link href="/category/honey">
+        Honey
+      </Link> 
+      </li>               
       <li>
         <Link href="/category/marine-items">
           Marine Items
         </Link>
       </li>
+      
       <li>
         <Link href="/category/other-food-items">
            Other Food Items  
