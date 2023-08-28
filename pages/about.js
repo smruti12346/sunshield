@@ -13,7 +13,7 @@ const About = () => {
         <div class="container-fluid p-0">
           <Image
             alt="profile image"
-            src="/assets/images/header/profile1.jpg"
+            src="/assets/images/header/ab3.jpg"
             class="img-fullwidth ab-img"
             width={1200}
             height={300}

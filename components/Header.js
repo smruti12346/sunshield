@@ -235,7 +235,7 @@ const Header = () => {
 </Link>
 <ul>
 <li>
-    <Link href="/category/agricultural-products">
+    <Link href="#">
       Agricultural Products
       <i
         className="fa fa-chevron-right"
@@ -261,7 +261,7 @@ const Header = () => {
     </ul>
   </li>
 <li>
-    <Link href="/category/engineering-products">
+    <Link href="#">
       Engineering Products
       <i
         className="fa fa-chevron-right"
@@ -290,7 +290,7 @@ const Header = () => {
   </li>
   
   <li>
-    <Link href="/category/food-products">
+    <Link href="#">
       Food Products
       <i
         className="fa fa-chevron-right"

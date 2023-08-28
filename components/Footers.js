@@ -45,7 +45,7 @@ export default function Footers() {
                   >
                      <li>
                       <Link
-                        href="/category/dal"
+                        href="/"
                         class="custom-btn1"
                       >
                         Home
@@ -53,28 +53,38 @@ export default function Footers() {
                     </li>
                     <li>
                       <Link
-                        href="/category/spices"
-                        class="custom-btn1"
-                      >
-                       About Us
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        href="/category/oil"
-                        class="custom-btn1"
-                      >
-                     Certificate
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        href="/category/fruits"
+                        href="/blog"
                         class="custom-btn1"
                       >
                         Blog
                       </Link>
                     </li>
+                    <li>
+                      <Link
+                        href="/about"
+                        class="custom-btn1"
+                      >
+                       About
+                      </Link>
+                    </li>
+                    <li>
+                    <Link
+                      href="/contact"
+                      class="custom-btn1"
+                    >
+                      Contact
+                    </Link>
+                  </li>
+                    <li>
+                      <Link
+                        href="/certifications"
+                        class="custom-btn1"
+                      >
+                     Certificate
+                      </Link>
+                    </li>
+                    
+                    
                     
                   </ul>
                 </div>
@@ -99,14 +109,6 @@ export default function Footers() {
               </li>
               <li>
                 <Link
-                  href="/category/spices"
-                  class="custom-btn1"
-                >
-               spices
-                </Link>
-              </li>
-              <li>
-                <Link
                   href="/category/oil"
                   class="custom-btn1"
                 >
@@ -123,12 +125,23 @@ export default function Footers() {
               </li>
               <li>
                 <Link
+                  href="/category/spices"
+                  class="custom-btn1"
+                >
+               spices
+                </Link>
+              </li>
+              
+              
+              <li>
+                <Link
                   href="/category/fresh-vegetables"
                   class="custom-btn1"
                 >
                Vegetables
                 </Link>
               </li>
+             
                   </ul>
                   </div>
                   <div className="col-xl-6 col-lg-6 col-6 ">
@@ -140,7 +153,7 @@ export default function Footers() {
                 <li>
                 <Link
                 class="custom-btn1"
-                  href="/category/solar"
+                  href="/category/street-lights"
                 >
                   Solar
                 </Link>

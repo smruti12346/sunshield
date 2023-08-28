@@ -5320,7 +5320,7 @@ div#scrollbar::-webkit-scrollbar-thumb {
 
 .b_slide_1 {
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url(/assets/images/banner/bg-image-1.jpg) no-repeat center center;
+    url(/assets/images/banner/bgg1.png) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
