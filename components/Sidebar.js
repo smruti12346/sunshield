@@ -43,7 +43,7 @@ const Sidebar = () => {
             </Link></li>
               <li>
               
-        <Link href="/subcategory/dal">Dal</Link>
+        <Link href="/subcategory/dal">Grocery</Link>
       </li>
       <li>
         <Link href="/subcategory/spices">Spices</Link>
