@@ -86,9 +86,9 @@ const Header = () => {
                     <li>
                       <Link
                         onClick={handleClose}
-                        href="/subcategory/fruits"
+                        href="/subcategory/fresh-fruits"
                       >
-                        Fruits
+                        Fresh Fruits
                       </Link>
                     </li>
                     <li>
@@ -248,7 +248,7 @@ const Header = () => {
                       </Link>
                       <ul>
                         <li>
-                          <Link href="/subcategory/fruits">Fresh Fruits</Link>
+                          <Link href="/subcategory/fresh-fruits">Fresh Fruits</Link>
                         </li>
                         <li>
                           <Link href="/subcategory/fresh-vegetables">
@@ -261,7 +261,7 @@ const Header = () => {
                           </Link> 
                         </li>  */}
                         <li>
-                          <Link href="/subcategory/dal">
+                          <Link href="/subcategory/grocery">
                             <i className="fa fa-chevron-right"
                             style={{ float: "right", marginTop: "5px" }}
                             >
@@ -270,29 +270,29 @@ const Header = () => {
                           </Link>
                           <ul>
                             <li>
-                              <Link href="">
-                                Variety of Dal
+                              <Link href="/subcategory/variety-of-dal">
+                                Variety Of Dal
                               </Link> 
                               </li> 
                               <li>
-                                <Link href="">
-                                  Variety of Pulses
+                                <Link href="/subcategory/variety-of-pulses">
+                                  Variety Of Pulses
                                 </Link> 
                               </li> 
                         
                               <li>
-                                <Link href="">Variety of Flours</Link>
+                                <Link href="/subcategory/variety-of-flours">Variety Of Flours</Link>
                               </li>
                               <li>
-                                <Link href="">Basmati Rice</Link>
+                                <Link href="/subcategory/basmati-rice">Basmati Rice</Link>
                               </li>
                               <li>
-                                <Link href="">Non-Basmati Rice</Link>
+                                <Link href="/subcategory/">Non-Basmati Rice</Link>
                               </li>
           
                               <li>
-                                <Link href="">
-                                  Other items
+                                <Link href="/subcategory/other-items">
+                                  Other Items
                                 </Link>
                               </li>               
                                            
@@ -306,10 +306,38 @@ const Header = () => {
                           <Link href="/subcategory/marine-items">
                             Marine Items
                           </Link>
-                        </li> */}
-                        <li>
-                          <Link href="/subcategory/oil">Edible Oil</Link>
                         </li>
+                      <li>
+                          <Link href="/subcategory/edible-oil">Edible Oil</Link>
+                        </li>
+                      */}
+                      <li>
+                      <Link href="/subcategory/grocery">
+                        <i className="fa fa-chevron-right"
+                        style={{ float: "right", marginTop: "5px" }}
+                        >
+                        </i>
+                       Edible Oil
+                      </Link>
+                      <ul>
+                        <li>
+                          <Link href="/subcategory/variety-of-dal">
+                            Sunflower Oil
+                          </Link> 
+                          </li> 
+                          <li>
+                            <Link href="/subcategory/variety-of-pulses">
+                              Groundnut Oil
+                            </Link> 
+                          </li> 
+                    
+                          
+                          
+                          
+      
+                             
+                        </ul>
+                      </li>
                         <li>
                           <Link href="/subcategory/other-food-items">
                             Other Food Items  
@@ -319,7 +347,7 @@ const Header = () => {
                       </ul>
                     </li>
                     <li>
-                      <Link href="/subcategory/marine-items">
+                      <Link href="/subcategory/marine-products">
                         Marine Products
                       </Link>
                     </li>
@@ -333,18 +361,18 @@ const Header = () => {
                       <ul>
                             <li>
                               <Link href="">
-                                Wooden handicrafts products
+                                Wooden Handicrafts Products
                                 
                               </Link> 
                               </li> 
                               <li>
                                 <Link href="">
-                                Decorative products
+                                Decorative Products
                                 </Link> 
                               </li> 
                         
                               <li>
-                                <Link href="">Silver filigree products</Link>
+                                <Link href="">Silver Filigree Products</Link>
                               </li>
                               <li>
                                 <Link href="">Bamboo Crafts</Link>
@@ -353,10 +381,10 @@ const Header = () => {
                                 <Link href="">Terracota Items</Link>
                               </li>
                               <li>
-                                <Link href="">Chandua and Pattachitra</Link>
+                                <Link href="">Chandua And Pattachitra</Link>
                               </li>
                               <li>
-                                <Link href="">Bronze products</Link>
+                                <Link href="">Bronze Products</Link>
                               </li>
           
                               <li>
@@ -369,7 +397,7 @@ const Header = () => {
                     </li>
                     <li>
                       <Link href="">
-                        Stone and ceramics
+                        Stone And Ceramics
                       </Link>
                     </li>
                     <li>
@@ -382,22 +410,9 @@ const Header = () => {
                       </Link>
                       <ul>
                         <li>
-                          <Link href="/subcategory/electric-lights"> Electric Lights</Link>
+                          <Link href="/subcategory/solar-systems"> Solar Systems</Link>
                         </li>
-                        <li>
-                          <Link href="/subcategory/hybrid-solar-powerplant">Solar Power plants</Link>
-                        </li>
-                        <li>
-                          <Link href="/subcategory/street-lights">Solar Street Lights</Link>
-                        </li>
-                        <li>
-                          <Link href="/subcategory/solar-water-heater">
-                            Solar Water Heaters
-                          </Link>
-                        </li> 
-                        <li>
-                          <Link href="/subcategory/solar-water-pumps"> Solar Water Pumps </Link>
-                        </li>          
+                            
                       </ul>
                     </li>
                    
@@ -406,7 +421,7 @@ const Header = () => {
                        
                         <li>
                           <Link href="">
-                          Packaging products
+                          Packaging Products
                           </Link>
                         </li>
                    
@@ -416,7 +431,7 @@ const Header = () => {
                   <li>
                     <Link
                       onClick={handleClose}
-                      href="/certifications"
+                      href="/Certificates"
                     >
                       Certifications
                     </Link>

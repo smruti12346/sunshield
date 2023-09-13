@@ -105,24 +105,15 @@ export default function Footers() {
                         className="footer-menu"
                         style={{ display: "block" }}
                       >
-
-                        <li>
-                          <Link
-                          href="/category/agricultural-products"
-                            class="custom-btn1"
-                          >
-                            Agricultural Products{" "}
-                          </Link>
-                        </li>
-                        <li>
-                          <Link
-                          href="/category/engineering-products"
-                            class="custom-btn1"
-                          >
-                            Engineering Products
-                          </Link>
-                        </li>
-                        <li>
+                      <li>
+                      <Link
+                      href="/category/engineering-products"
+                        class="custom-btn1"
+                      >
+                        Engineering Products
+                      </Link>
+                    </li>
+                    <li>
                           <Link
                           href="/category/food-products"
                             class="custom-btn1"
@@ -135,9 +126,37 @@ export default function Footers() {
                           href="/subcategory/handicrafts"
                             class="custom-btn1"
                           >
-                            Handicrafts
+                            Handicrafts Products
                           </Link>
                         </li>
+
+                      <li>
+                      <Link
+                        href="/category/marine-products"
+                        class="custom-btn1"
+                      >
+                        Marine Products{" "}
+                      </Link>
+                    </li>
+                    <li>
+                    <Link
+                    href="/category/packaging-products"
+                      class="custom-btn1"
+                    >
+                    Packaging  Products
+                    </Link>
+                  </li>
+                        
+                  <li>
+                  <Link
+                  href="/category/stone-and-ceramics"
+                    class="custom-btn1"
+                  >
+                  Stone And Ceramics 
+                  </Link>
+                </li>
+                         
+                        
 
 
                        

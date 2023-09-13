@@ -8,12 +8,14 @@ import FormDialog from "@/components/FormDialog";
 import React from "react";
 const cat = [
   { name: "fresh-vegetables", id: 8 },
-  { name: "fruits", id: 7 },
+  { name: "fresh-fruits", id: 7 },
   { name: "sea-foods", id: 10 },
   { name: "spices", id: 6 },
-  { name: "dal", id: 12 },
-  { name: "oil", id: 14 },
-  { name: "marine-items", id: 15 },
+  { name: "variety-of-dal", id: 12 },
+  { name: "variety-of-pulses", id: 41 },
+  { name: "variety-of-flours", id: 42 },
+  { name: "edible-oil", id: 14 },
+  { name: "marine-products", id: 15 },
   { name: "other-food-items", id: 16 },
   { name: "hybrid-solar-powerplant", id: 33 },
   { name: "honey", id: 38 },
@@ -22,6 +24,13 @@ const cat = [
   { name: "street-lights", id: 31 },
   { name: "electric-lights", id: 39 },
   { name: "handicrafts", id: 11 },
+  { name: "grocery", id: 40 },
+  { name: "basmati-rice", id: 43 },
+  { name: "non-basmati-rice", id: 44 },
+  { name: "other-items", id: 45 },
+  { name: "solar-systems", id: 46 },
+  
+
  
   
 

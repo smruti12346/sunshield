@@ -45,15 +45,15 @@ export default function Footer() {
                   >
                      <li>
                       <Link
-                        href="/category/dal"
+                        href="/category/marine-products"
                         class="custom-btn"
                       >
-                        Agricultural Products{" "}
+                        Marine Products{" "}
                       </Link>
                     </li>
                     <li>
                       <Link
-                        href="/category/spices"
+                        href="/category/engineering-products"
                         class="custom-btn"
                       >
                        Engineering Products
@@ -61,7 +61,7 @@ export default function Footer() {
                     </li>
                     <li>
                       <Link
-                        href="/category/oil"
+                        href="/category/food-products"
                         class="custom-btn"
                       >
                        Food Products{" "}
@@ -69,7 +69,7 @@ export default function Footer() {
                     </li>
                     <li>
                       <Link
-                        href="/category/fruits"
+                        href="/category/handicrafts"
                         class="custom-btn"
                       >
                         Handicraft Products

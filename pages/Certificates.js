@@ -20,7 +20,19 @@ const name = {
   udyam: "Udyam Certificate",
  
 };
-const Certifications = () => {
+const additionalImages = [
+  { src: "/assets/images/certificates/dgft.jpg", name: "DGFT" },
+  { src: "/assets/images/certificates/logo5.png", name: "APEDA"},
+  { src: "/assets/images/certificates/fssai.png", name: "FSSAI"},
+  { src: "/assets/images/certificates/UDYAM AADHAR.png",name: "UDYAM AADHAR"},
+  { src: "/assets/images/certificates/logo3.jpg", name: "GST"},
+  { src: "/assets/images/certificates/spice.png", name: "MSME"},
+  { src: "/assets/images/certificates/msme.png", name: "MSME"},
+  { src: "/assets/images/certificates/fieo.jpg", name: "FIEO"},
+  // Add more images as needed
+];
+
+const Certificates = () => {
   const [open, setOpen] = React.useState(false);
   const [img, setImg] = React.useState(images);
   const handleOpen = (event, img) => {
@@ -81,8 +93,50 @@ const Certifications = () => {
           />
         </div>
       </section>
+      <section style={{background:"aliceblue"}}>
+        <div className="container py-5">
+          <div className="row">
+            {additionalImages.map((item, index) => (
+              <div className="col-md-3 mt-2" key={index}>
+                <div className="card" style={{ minHeight: "auto" }}>
+                  <div className="card-body" style={{ border: "2px solid green",}}>
+                    <div style={{ position: "relative" , }}>
+                      <Image
+                        src={item.src}
+                        width={500}
+                        height={500}
+                        alt="image"
+                        className="img-fluid"
+                        style={{ width: "100%", height: "auto" }}
+                      />
+                      <div
+                        className="image-name"
+                        style={{
+                          position: "absolute",
+                          bottom: 0,
+                          left: 0,
+                          width: "100%",
+                          
+                          padding: "5px",
+                          textAlign: "center",
+                        }}
+                      >
+                      </div>
+                      <div style={{
+                        marginTop:"10px",
+                         textAlign: "center", fontWeight:"800"
+                        }}> <i  >{item.name}</i></div>
+                       
+                    </div>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
     </div>
   );
 };
 
-export default Certifications;
+export default Certificates;
