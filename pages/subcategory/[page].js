@@ -17,10 +17,10 @@ const cat = [
   { name: "edible-oil", id: 14 },
   { name: "marine-products", id: 15 },
   { name: "other-food-items", id: 16 },
+  { name: "solar-water-pumps", id: 32 },
   { name: "hybrid-solar-powerplant", id: 33 },
   { name: "honey", id: 38 },
   { name: "solar-water-heater", id: 37 },
-  { name: "solar-water-pumps", id: 32 },
   { name: "street-lights", id: 31 },
   { name: "electric-lights", id: 39 },
   { name: "handicrafts", id: 11 },
@@ -29,6 +29,17 @@ const cat = [
   { name: "non-basmati-rice", id: 44 },
   { name: "other-items", id: 45 },
   { name: "solar-systems", id: 46 },
+  { name: "wooden-handicrafts-products", id: 47 },
+  { name: "decotative-products", id: 48 },
+  { name: "silver-filigree-products", id: 49 },
+  { name: "odisha-handloom-sarees", id: 54 },
+  { name: "chandua-and-pattachitra", id: 52 },
+  { name: "bronze-products", id: 53 },
+  { name: "terracota-items", id: 51 },
+  { name: "bamboo-crafts", id: 50 },
+  { name: "stone-and-ceramics", id: 55 },
+  { name: "packaging-products", id: 56 },
+
   
 
  

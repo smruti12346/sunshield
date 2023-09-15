@@ -6,10 +6,10 @@ import Image from 'next/image'
 function index() {
   return (
     <React.Fragment>
-    <section class="inner-header bg-green ab-img1">
+      <section class="inner-header bg-green ab-img1">
         <div class="container-fluid p-0">
           <Image
-          alt="profile-image"
+            alt="profile-image"
             src="/assets/images/header/profile.jpg"
             class="img-fullwidth"
             width={1200}
@@ -37,63 +37,479 @@ function index() {
           </div>
         </div>
       </section>
-<div className="container">
-<div className="row">
-<div className="col-md-9 sticky-widget ">
-<div className="row">
-<div className="col-md-12">
-<h2 className='text-center mt-5 mb-4'>Engineering Products</h2>
-With a focus on high-quality engineering solutions, we offer high-quality solar products. The timely and reliable shipments supported by pricing- guarantee a smooth import process. Count on our dedicated customer support to provide guidance and assistance throughout.
+      <section>
+      <div className="container mt-5 ">
+      <div className="row">
+      <div className="col-md-12">
+      <h2 className='text-center mb-3'>Engineering Products</h2>
+      <p>
+      With a focus on high-quality engineering solutions, we offer high-quality solar products. The timely and reliable shipments supported by pricing- guarantee a smooth import process. Count on our dedicated customer support to provide guidance and assistance throughout.
+      </p>
+      </div>
+      </div>
+      <div className="row">
+      <div class="col-md-6">
+<ul>
+ 	<li>Cutting-edge solar products for import</li>
+ 	<li>High-quality engineering solutions</li>
+ 	<li>Bulk quantity orders available</li>
+ 	<li>Timely and reliable shipments</li>
+</ul>
 </div>
-<div className="row mt-5">
-<div className="col-md-4">
-<h3 className='text-center' style={{fontSize:'20px'}}>Electric Lights</h3>
-<img src="/assets/images/campaign/Electrical Lights.png" alt="" />
-<Link className='custom-btn nav-btn p-btn' href="/subcategory/electric-lights">Explore Products</Link>
+<div class="col-md-6">
+<ul>
+ 	<li>International export expertise</li>
+ 	<li>Dedicated customer support</li>
+ 	<li>Strict quality assurance</li>
+ 	<li>Comprehensive product portfolio</li>
+</ul>
 </div>
-<div className="col-md-4">
-<h3 className='text-center' style={{fontSize:'20px'}}>Solar Power plants</h3>
-<img src="/assets/images/campaign/Hybrid Solar Powerplant.png" alt="" />
-<Link className='custom-btn nav-btn p-btn' href="/subcategory/hybrid-solar-powerplant">Explore Products</Link>
-</div>
-
-<div className="col-md-4">
-<h3 className='text-center' style={{fontSize:'20px'}}>Solar Street Lights</h3>
-<img src="/assets/images/campaign/Solar Lights.png" alt="" />
-<Link className='custom-btn nav-btn p-btn' href="/subcategory/street-lights">Explore Products</Link>
-</div>
-
-</div>
-<div className="row mt-4">
-<div className="col-md-4">
-<h3 className='text-center' style={{fontSize:'20px'}}>Solar Water Heaters</h3>
-<img src="/assets/images/campaign/Solar Water Heater.png" alt="dal" />
-<Link className='custom-btn nav-btn p-btn' href="/subcategory/solar-water-heater">Explore Products</Link>
-</div>
-<div className="col-md-4">
-<h3 className='text-center' style={{fontSize:'20px'}}>Solar Water Pumps</h3>
-<img src="/assets/images/campaign/Solar Water Pumps.png" alt="spices" />
-<Link className='custom-btn nav-btn p-btn' href="/subcategory/solar-water-pumps">Explore Products</Link>
-</div>
-
-
-
-</div>
-
-</div>
-</div>
-<div className="col-lg-3 col-12 sticky-widget">
-<div className="sidebar-widget">
-  <Sidebar/>
-</div>
-</div>
-</div>
-</div>
- 
-  
+      </div>
+      </div>
+      </section>
     
+      <div className="container mt-4 ">
+      <div className="row">
+      <div className="col-md-12 ">
+      <h3 className='text-center mb-4'>Solar Systems</h3>
+      </div>
+      </div>
+      <div className="row mt-4">
+      <div className="col-md-5">
+                    <img className="imgg1" src="/assets/images/shope/solar panel.png" alt="fruits"  />
+                  </div>
+                  <div className="col-md-7">
+                  <h3 className='text-center mb-2'>Solar Panel</h3>
+                    <p className='p-para1'>A solar water pump system is essentially an electrical pump system in which the electricity is provided by one or several PhotoVoltaic (PV) panels.Sunshield Energy Pvt. Ltd. Provides wide range of Solar Submersible pump and Surface Pump suitable for Irrigation system and Drinking Water purpose. </p>
+                    
+                    <ul>
+
+<li className='ls'>
+
+Low maintenance
+</li>
+
+<li className='ls'>
+
+Easy to install
+
+</li>
+
+<li className='ls'>
+
+No fuel costs or zero electricity bill
+
+</li>
+
+<li className='ls'>
+
+Simple and reliable
+
+</li>
+<li className='ls'>
+
+Search 
+
+</li>
+<li className='ls'>
+
+ Auto operated
+
+</li>
+</ul>
+<a className="quote-btn" href="">Get A Quote</a>
+
+                  </div>
+                  
+                </div>
+                
+              </div>
+      <div className="container mt-5">
+      <div className="row">
+      <div className="row mt-5">
+               
+                            <div className="col-md-7">
+                            <h3 className='text-center mb-2'>Solar Pump</h3>
+                              <p className='p-para1'>A solar water pump system is essentially an electrical pump system in which the electricity is provided by one or several PhotoVoltaic (PV) panels.Sunshield Energy Pvt. Ltd. Provides wide range of Solar Submersible pump and Surface Pump suitable for Irrigation system and Drinking Water purpose. </p>
+                              
+                              <ul>
+          
+          <li className='ls'>
+          
+          Low maintenance
+          </li>
+          
+          <li className='ls'>
+          
+          Easy to install
+          
+          </li>
+          
+          <li className='ls'>
+          
+          No fuel costs or zero electricity bill
+          
+          </li>
+          
+          <li className='ls'>
+          
+          Simple and reliable
+          
+          </li>
+          <li className='ls'>
+          
+          Search 
+          
+          </li>
+          <li className='ls'>
+          
+           Auto operated
+          
+          </li>
+          </ul>
+          <a className="quote-btn" href="">Get A Quote</a>
+          
+                            </div>
+                            <div className="col-md-5">
+                            <img className="imgg1" src="/assets/images/shope/solar pump.png" alt="fruits"  />
+                          </div>
+                            
+                          </div>
+      </div>
+      </div>
+      <div className="container mt-5">
+      <div className="row">
+      <div className="row mt-5">
+      <div className="col-md-5">
+      <img className="imgg1" src="/assets/images/shope/street light.png" alt="fruits"  />
+    </div>
+                            <div className="col-md-7">
+                            <h3 className='text-center mb-2'>Solar Street Light</h3>
+                              <p className='p-para1'>A solar water pump system is essentially an electrical pump system in which the electricity is provided by one or several PhotoVoltaic (PV) panels.Sunshield Energy Pvt. Ltd. Provides wide range of Solar Submersible pump and Surface Pump suitable for Irrigation system and Drinking Water purpose. </p>
+                              
+                              <ul>
+          
+          <li className='ls'>
+          
+          Low maintenance
+          </li>
+          
+          <li className='ls'>
+          
+          Easy to install
+          
+          </li>
+          
+          <li className='ls'>
+          
+          No fuel costs or zero electricity bill
+          
+          </li>
+          
+          <li className='ls'>
+          
+          Simple and reliable
+          
+          </li>
+          <li className='ls'>
+          
+          Search 
+          
+          </li>
+          <li className='ls'>
+          
+           Auto operated
+          
+          </li>
+          </ul>
+          <a className="quote-btn" href="">Get A Quote</a>
+          
+                            </div>
+                           
+                            
+                          </div>
+      </div>
+      </div>
+      <div className="container mt-5">
+      <div className="row">
+      <div className="row mt-5">
+      
+                            <div className="col-md-7">
+                            <h3 className='text-center mb-2'>Solar Water Heater</h3>
+                              <p className='p-para1'>A solar water pump system is essentially an electrical pump system in which the electricity is provided by one or several PhotoVoltaic (PV) panels.Sunshield Energy Pvt. Ltd. Provides wide range of Solar Submersible pump and Surface Pump suitable for Irrigation system and Drinking Water purpose. </p>
+                              
+                              <ul>
+          
+          <li className='ls'>
+          
+          Low maintenance
+          </li>
+          
+          <li className='ls'>
+          
+          Easy to install
+          
+          </li>
+          
+          <li className='ls'>
+          
+          No fuel costs or zero electricity bill
+          
+          </li>
+          
+          <li className='ls'>
+          
+          Simple and reliable
+          
+          </li>
+          <li className='ls'>
+          
+          Search 
+          
+          </li>
+          <li className='ls'>
+          
+           Auto operated
+          
+          </li>
+          </ul>
+          <a className="quote-btn" href="">Get A Quote</a>
+          
+                            </div>
+                            <div className="col-md-5">
+                            <img className="imgg1" src="/assets/images/shope/solar water heater.png" alt="fruits"  />
+                          </div>
+                            
+                          </div>
+      </div>
+      </div>
+      <div className="container mt-5">
+      <div className="row">
+      <div className="row mt-5">
+      <div className="col-md-5">
+      <img className="imgg1" src="/assets/images/shope/solar light.png" alt="fruits"  />
+    </div>
+                            <div className="col-md-7">
+                            <h3 className='text-center mb-2'>Solar Light</h3>
+                              <p className='p-para1'>A solar water pump system is essentially an electrical pump system in which the electricity is provided by one or several PhotoVoltaic (PV) panels.Sunshield Energy Pvt. Ltd. Provides wide range of Solar Submersible pump and Surface Pump suitable for Irrigation system and Drinking Water purpose. </p>
+                              
+                              <ul>
+          
+          <li className='ls'>
+          
+          Low maintenance
+          </li>
+          
+          <li className='ls'>
+          
+          Easy to install
+          
+          </li>
+          
+          <li className='ls'>
+          
+          No fuel costs or zero electricity bill
+          
+          </li>
+          
+          <li className='ls'>
+          
+          Simple and reliable
+          
+          </li>
+          <li className='ls'>
+          
+          Search 
+          
+          </li>
+          <li className='ls'>
+          
+           Auto operated
+          
+          </li>
+          </ul>
+          <a className="quote-btn" href="">Get A Quote</a>
+          
+                            </div>
+                           
+                            
+                          </div>
+      </div>
+      </div>
+      <div className="container mt-5">
+      <div className="row">
+      <div className="row mt-5">
+     
+                            <div className="col-md-7">
+                            <h3 className='text-center mb-2'>Electric  Light</h3>
+                              <p className='p-para1'>A solar water pump system is essentially an electrical pump system in which the electricity is provided by one or several PhotoVoltaic (PV) panels.Sunshield Energy Pvt. Ltd. Provides wide range of Solar Submersible pump and Surface Pump suitable for Irrigation system and Drinking Water purpose. </p>
+                              
+                              <ul>
+          
+          <li className='ls'>
+          
+          Low maintenance
+          </li>
+          
+          <li className='ls'>
+          
+          Easy to install
+          
+          </li>
+          
+          <li className='ls'>
+          
+          No fuel costs or zero electricity bill
+          
+          </li>
+          
+          <li className='ls'>
+          
+          Simple and reliable
+          
+          </li>
+          <li className='ls'>
+          
+          Search 
+          
+          </li>
+          <li className='ls'>
+          
+           Auto operated
+          
+          </li>
+          </ul>
+          <a className="quote-btn" href="">Get A Quote</a>
+          
+                            </div>
+                            <div className="col-md-5">
+                            <img className="imgg1" src="/assets/images/shope/electric lights.png" alt="fruits"  />
+                          </div>
+                           
+                            
+                          </div>
+      </div>
+      </div>
+
+
     </React.Fragment>
   )
 }
 
 export default index
+
+// <div className="col-lg-3 col-12 sticky-widget">
+// <div className="sidebar-widget">
+// <Sidebar/>
+// </div>
+// </div>
+// <div className="container">
+//         <div className="row">
+//           <div className="col-md-12 sticky-widget ">
+//             <div className="row">
+//               <div className="col-md-12">
+//                 <h2 className='text-center mt-5 mb-4'>Engineering Products</h2>
+//               <p>  With a focus on high-quality engineering solutions, we offer high-quality solar products. The timely and reliable shipments supported by pricing- guarantee a smooth import process. Count on our dedicated customer support to provide guidance and assistance throughout.</p>
+
+// <h5>Our commitment</h5>
+// <div class="container">
+// <div class="row">
+// <div class="col-md-6">
+// <ul>
+//  	<li>Cutting-edge solar products for import</li>
+//  	<li>High-quality engineering solutions</li>
+//  	<li>Bulk quantity orders available</li>
+//  	<li>Timely and reliable shipments</li>
+// </ul>
+// </div>
+// <div class="col-md-6">
+// <ul>
+//  	<li>International export expertise</li>
+//  	<li>Dedicated customer support</li>
+//  	<li>Strict quality assurance</li>
+//  	<li>Comprehensive product portfolio</li>
+// </ul>
+// </div>
+// </div>
+// </div>
+                
+
+//               </div>
+//             </div>
+//             <div className="col-md-12">
+//             <div className="container mb-5">
+//               <div className="row">
+//               <div className="col-md-12">
+//               <h3 className='text-center mt-5 mb-5'>Solar System</h3></div>
+//               </div>
+//                 <div className="row">
+                
+                  
+
+//               <div className="container  mb-5 ">
+              
+//                 <div className="row ">
+                
+//             <div className="col-md-7">
+//                   <h3 className='text-center'>Solar Pump</h3>
+//                     <p className='p-para1'>A solar water pump system is essentially an electrical pump system in which the electricity is provided by one or several PhotoVoltaic (PV) panels.Sunshield Energy Pvt. Ltd. Provides wide range of Solar Submersible pump and Surface Pump suitable for Irrigation system and Drinking Water purpose. </p>
+                    
+//                     <ul>
+
+// <li className='ls'>
+
+// Low maintenance
+// </li>
+
+// <li className='ls'>
+
+// Easy to install
+
+// </li>
+
+// <li className='ls'>
+
+// No fuel costs or zero electricity bill
+
+// </li>
+
+// <li className='ls'>
+
+// Simple and reliable
+
+// </li>
+// <li className='ls'>
+
+// Search 
+
+// </li>
+// <li className='ls'>
+
+//  Auto operated
+
+// </li>
+// </ul>
+// <a className="quote-btn" href="">Get A Quote</a>
+
+//                   </div>
+//                   <div className="col-md-5">
+//                   <img className="imgg1" src="/assets/images/project/sp2.jpg" alt="fruits"  />
+//                 </div>
+                  
+//                 </div>
+
+//               </div>
+
+            
+             
+            
+            
+            
+          
+        
+//             </div>
+
+//           </div>
+          
+//         </div>
+//       </div>

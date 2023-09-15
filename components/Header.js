@@ -287,7 +287,7 @@ const Header = () => {
                                 <Link href="/subcategory/basmati-rice">Basmati Rice</Link>
                               </li>
                               <li>
-                                <Link href="/subcategory/">Non-Basmati Rice</Link>
+                                <Link href="/subcategory/non-basmati-rice">Non-Basmati Rice</Link>
                               </li>
           
                               <li>
@@ -312,32 +312,9 @@ const Header = () => {
                         </li>
                       */}
                       <li>
-                      <Link href="/subcategory/grocery">
-                        <i className="fa fa-chevron-right"
-                        style={{ float: "right", marginTop: "5px" }}
-                        >
-                        </i>
-                       Edible Oil
-                      </Link>
-                      <ul>
-                        <li>
-                          <Link href="/subcategory/variety-of-dal">
-                            Sunflower Oil
-                          </Link> 
-                          </li> 
-                          <li>
-                            <Link href="/subcategory/variety-of-pulses">
-                              Groundnut Oil
-                            </Link> 
-                          </li> 
-                    
-                          
-                          
-                          
-      
-                             
-                        </ul>
-                      </li>
+                    <Link href="/subcategory/edible-oil"> Edible Oil</Link>
+                  </li>
+                      
                         <li>
                           <Link href="/subcategory/other-food-items">
                             Other Food Items  
@@ -360,35 +337,35 @@ const Header = () => {
                       </Link>
                       <ul>
                             <li>
-                              <Link href="">
+                              <Link href="/subcategory/wooden-handicrafts-products">
                                 Wooden Handicrafts Products
                                 
                               </Link> 
                               </li> 
                               <li>
-                                <Link href="">
+                                <Link href="/subcategory/decotative-products">
                                 Decorative Products
                                 </Link> 
                               </li> 
                         
                               <li>
-                                <Link href="">Silver Filigree Products</Link>
+                                <Link href="/subcategory/silver-filigree-products">Silver Filigree Products</Link>
                               </li>
                               <li>
-                                <Link href="">Bamboo Crafts</Link>
+                                <Link href="/subcategory/bamboo-crafts">Bamboo Crafts</Link>
                               </li>
                               <li>
-                                <Link href="">Terracota Items</Link>
+                                <Link href="/subcategory/terracota-items">Terracota Items</Link>
                               </li>
                               <li>
-                                <Link href="">Chandua And Pattachitra</Link>
+                                <Link href="/subcategory/chandua-and-pattachitra">Chandua And Pattachitra</Link>
                               </li>
                               <li>
-                                <Link href="">Bronze Products</Link>
+                                <Link href="/subcategory/bronze-products">Bronze Products</Link>
                               </li>
           
                               <li>
-                                <Link href="">
+                                <Link href="/subcategory/odisha-handloom-sarees">
                                 Odisha Handloom Sarees
                                 </Link>
                               </li>               
@@ -396,7 +373,7 @@ const Header = () => {
                             </ul>
                     </li>
                     <li>
-                      <Link href="">
+                      <Link href="/subcategory/stone-and-ceramics">
                         Stone And Ceramics
                       </Link>
                     </li>
@@ -420,7 +397,7 @@ const Header = () => {
 
                        
                         <li>
-                          <Link href="">
+                          <Link href="/subcategory/packaging-products">
                           Packaging Products
                           </Link>
                         </li>
@@ -440,7 +417,7 @@ const Header = () => {
                     <Link href=" ">Gallery </Link>
                   </li>
                   <li>
-                    <Link href="/blog">Blog </Link>
+                    <Link href="/blog1">Blog </Link>
                   </li>
                 </ul>
               </div>

@@ -106,14 +106,6 @@ export default function Footers() {
                         style={{ display: "block" }}
                       >
                       <li>
-                      <Link
-                      href="/category/engineering-products"
-                        class="custom-btn1"
-                      >
-                        Engineering Products
-                      </Link>
-                    </li>
-                    <li>
                           <Link
                           href="/category/food-products"
                             class="custom-btn1"
@@ -122,6 +114,14 @@ export default function Footers() {
                           </Link>
                         </li>
                         <li>
+                      <Link
+                        href="/category/marine-products"
+                        class="custom-btn1"
+                      >
+                        Marine Products{" "}
+                      </Link>
+                    </li>
+                    <li>
                           <Link
                           href="/subcategory/handicrafts"
                             class="custom-btn1"
@@ -129,13 +129,20 @@ export default function Footers() {
                             Handicrafts Products
                           </Link>
                         </li>
-
+                        <li>
+                        <Link
+                        href="/category/stone-and-ceramics"
+                          class="custom-btn1"
+                        >
+                        Stone And Ceramics 
+                        </Link>
+                      </li>
                       <li>
                       <Link
-                        href="/category/marine-products"
+                      href="/category/engineering-products"
                         class="custom-btn1"
                       >
-                        Marine Products{" "}
+                        Engineering Products
                       </Link>
                     </li>
                     <li>
@@ -147,14 +154,7 @@ export default function Footers() {
                     </Link>
                   </li>
                         
-                  <li>
-                  <Link
-                  href="/category/stone-and-ceramics"
-                    class="custom-btn1"
-                  >
-                  Stone And Ceramics 
-                  </Link>
-                </li>
+                 
                          
                         
 

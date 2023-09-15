@@ -26,7 +26,7 @@ const additionalImages = [
   { src: "/assets/images/certificates/fssai.png", name: "FSSAI"},
   { src: "/assets/images/certificates/UDYAM AADHAR.png",name: "UDYAM AADHAR"},
   { src: "/assets/images/certificates/logo3.jpg", name: "GST"},
-  { src: "/assets/images/certificates/spice.png", name: "MSME"},
+  { src: "/assets/images/certificates/spice.png", name: "SPICE BOARD"},
   { src: "/assets/images/certificates/msme.png", name: "MSME"},
   { src: "/assets/images/certificates/fieo.jpg", name: "FIEO"},
   // Add more images as needed
@@ -49,50 +49,7 @@ const Certificates = () => {
   return (
     <div>
       <Hero name="Certifications" />
-      <section style={{ backgroundColor:"aliceblue" }}>
-        <div className="container py-5">
-          <div className="row">
-            {Object.keys(images).map((item, index) => (
-              <div
-                className="col-md-4 mt-2"
-                key={index}
-              >
-                <div
-                  className="card"
-                  style={{ minHeight: "auto" }}
-                >
-                  <div className="card-body">
-                    <Link
-                      href="#"
-                      onClick={(event) => handleOpen(event, `${item}`)}
-                    >
-                      <Image
-                        src={`/assets/images/certificates/${item}/4.jpg`}
-                        width={500}
-                        height={500}
-                        alt="image"
-                        className="img-fluid"
-                        style={{width: "100%" , height: "auto"}}
-                      />
-                      <h5 className="text-center mt-2">
-                        <i>{name[item]}</i>
-                      </h5>
-                    </Link>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
-          <Lightbox
-            open={open}
-            close={() => handleClose()}
-            slides={img}
-            carousel={{
-              finite: true,
-            }}
-          />
-        </div>
-      </section>
+      
       <section style={{background:"aliceblue"}}>
         <div className="container py-5">
           <div className="row">
@@ -140,3 +97,47 @@ const Certificates = () => {
 };
 
 export default Certificates;
+// <section style={{ backgroundColor:"aliceblue" }}>
+//         <div className="container py-5">
+//           <div className="row">
+//             {Object.keys(images).map((item, index) => (
+//               <div
+//                 className="col-md-4 mt-2"
+//                 key={index}
+//               >
+//                 <div
+//                   className="card"
+//                   style={{ minHeight: "auto" }}
+//                 >
+//                   <div className="card-body">
+//                     <Link
+//                       href="#"
+//                       onClick={(event) => handleOpen(event, `${item}`)}
+//                     >
+//                       <Image
+//                         src={`/assets/images/certificates/${item}/4.jpg`}
+//                         width={500}
+//                         height={500}
+//                         alt="image"
+//                         className="img-fluid"
+//                         style={{width: "100%" , height: "auto"}}
+//                       />
+//                       <h5 className="text-center mt-2">
+//                         <i>{name[item]}</i>
+//                       </h5>
+//                     </Link>
+//                   </div>
+//                 </div>
+//               </div>
+//             ))}
+//           </div>
+//           <Lightbox
+//             open={open}
+//             close={() => handleClose()}
+//             slides={img}
+//             carousel={{
+//               finite: true,
+//             }}
+//           />
+//         </div>
+//       </section>
