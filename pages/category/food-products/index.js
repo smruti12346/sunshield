@@ -43,7 +43,10 @@ function index() {
             <div className="row">
               <div className="col-md-12">
                 <h2 className='text-center mt-5 mb-4'>Food Products</h2>
-                <p>Our journey begins with a commitment to ethical beekeeping practices and sustainable sourcing. We partner with local beekeepers who share our passion for preserving the environment by growing organic products. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro qui dicta dolore exercitationem explicabo placeat molestias fugit dolorem at possimus voluptatum soluta ab, voluptates consequuntur, aperiam eveniet. Fugit provident id veniam deserunt quo ipsum, nam necessitatibus, eligendi corporis, ipsa placeat. Similique corrupti maxime quidem vitae sed incidunt fugit, magnam eum. </p>
+                <p>We are your gateway to a delicious world of premium food products. We take great
+                delight in sourcing and exporting various food items that satisfy the sophisticated
+                palates of food lovers worldwide. Every product we export reflects our commitment to
+                providing great quality and flavor.</p>
 
               </div>
             </div>
@@ -61,29 +64,29 @@ function index() {
                     <img className="imgg" src="/assets/images/shope/1.webp" alt="fruits" width={400} height={200} />
                   </div>
                   <div className="col-md-7">
-                    <p className='p-para'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste pariatur fuga, ex similique amet sit reiciendis. Voluptatem dolorum facilis maxime, dolores id sunt libero hic qui unde Iure sapiente.</p>
+                    <p className='p-para'>Sourced from renowned growers worldwide, our premium fruits are carefully selected to deliver unmatched quality and flavor.  We can take flexible bulk quantity orders to meet your business requirements. The reliable and streamlined shipments ensure that the fruits arrive in optimal condition, ready to impress your buyers.</p>
                     <ul>
 
 <li>
 
-Lorem ipsum dolor sit amet consectetur.
+Premium quality fresh fruits sourced globally
 </li>
 
 <li>
 
-Lorem ipsum dolor sit amet consectetur.
-
-</li>
-
-<li>
-
-Lorem ipsum dolor sit amet consectetur.
+Bulk quantity orders available for export
 
 </li>
 
 <li>
 
-Lorem ipsum dolor sit amet consectetur.
+Efficient and reliable shipments
+
+</li>
+
+<li>
+
+International export expertise
 
 </li>
 
@@ -140,29 +143,29 @@ Lorem ipsum dolor sit amet consectetur.
                     <img className="imgg" src="/assets/images/shope/vegetable.jpg" alt="fruits" width={400} height={200} />
                   </div>
                   <div className="col-md-7">
-                  <p className='p-para'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste pariatur fuga, ex similique amet sit reiciendis. Voluptatem dolorum facilis maxime, dolores id sunt libero hic qui unde Iure sapiente.</p>
+                  <p className='p-para'>Discover the finest selection of premium fresh vegetables sourced from best producers. Our vegetables are hand-picked to ensure peak freshness and superior flavor. Whether you require bulk quantities for your restaurant or grocery store, our fast and convenient shipments will meet your business needs. Trust in the reliable logistics.</p>
                     <ul>
 
 <li>
 
-Lorem ipsum dolor sit amet consectetur.
+Premium quality fresh vegetables
 </li>
 
 <li>
 
-Lorem ipsum dolor sit amet consectetur.
-
-</li>
-
-<li>
-
-Lorem ipsum dolor sit amet consectetur.
+Advanced freshness technologies for extended shelf life
 
 </li>
 
 <li>
 
-Lorem ipsum dolor sit amet consectetur.
+Fast and convenient shipments
+
+</li>
+
+<li>
+
+Bulk quantity orders available
 
 </li>
 
@@ -213,29 +216,29 @@ Lorem ipsum dolor sit amet consectetur.
                   <img className="imgg" src="/assets/images/shope/dal.jpg" alt="fruits" width={400} height={200} />
                 </div>
                 <div className="col-md-7">
-                <p className='p-para'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste pariatur fuga, ex similique amet sit reiciendis. Voluptatem dolorum facilis maxime, dolores id sunt libero hic qui unde Iure sapiente.</p>
+                <p className='p-para'>We provide a hand-picked selection of premium grocery items thoroughly tested for freshness, flavor, and nutritional content. We are committed to giving our clients the best options out there. </p>
                     <ul>
 
 <li>
 
-Lorem ipsum dolor sit amet consectetur.
+Fresh Farm produce
 </li>
 
 <li>
 
-Lorem ipsum dolor sit amet consectetur.
-
-</li>
-
-<li>
-
-Lorem ipsum dolor sit amet consectetur.
+Organic and natural options
 
 </li>
 
 <li>
 
-Lorem ipsum dolor sit amet consectetur.
+Quality Control
+
+</li>
+
+<li>
+
+Seamless ordering and delivery process
 
 </li>
 
@@ -286,29 +289,29 @@ Lorem ipsum dolor sit amet consectetur.
                 <img className="imgg" src="/assets/images/shope/sp.jpg" alt="fruits" width={400} height={200} />
               </div>
               <div className="col-md-7">
-              <p className='p-para'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste pariatur fuga, ex similique amet sit reiciendis. Voluptatem dolorum facilis maxime, dolores id sunt libero hic qui unde Iure sapiente.</p>
+              <p className='p-para'>Order premium quality spices for unmatched flavor. With a rich culinary heritage,  India is a premier source of exquisite spices. We provide bulk quantities of these superior spices at the best prices. Experience authentic taste with the finest selection of spices.</p>
               <ul>
 
 <li>
 
-Lorem ipsum dolor sit amet consectetur.
+Advanced freshness technologies used
 </li>
 
 <li>
 
-Lorem ipsum dolor sit amet consectetur.
-
-</li>
-
-<li>
-
-Lorem ipsum dolor sit amet consectetur.
+Bulk quantity orders
 
 </li>
 
 <li>
 
-Lorem ipsum dolor sit amet consectetur.
+Fast and convenient shipments
+
+</li>
+
+<li>
+
+International export expertise
 
 </li>
 

@@ -50,7 +50,7 @@ const cat = [
 export const getServerSideProps = async (slug) => {
   const [catObj] = cat.filter((item) => item.name == slug.query.page);
   const res = await fetch(
-    `${api_url}/pages?_embed&categories=${catObj.id}&per_page=100`
+    `${api_url}/pages?_embed&categories=${catObj.id}&per_page=100&orderby=menu_order&order=asc`
   );
   const data = await res.json();
 

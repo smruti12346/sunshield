@@ -414,10 +414,10 @@ const Header = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link href=" ">Gallery </Link>
+                    <Link href="/gallery">Gallery </Link>
                   </li>
                   <li>
-                    <Link href="/blog1">Blog </Link>
+                    <Link href="#">Blog </Link>
                   </li>
                 </ul>
               </div>

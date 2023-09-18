@@ -89,7 +89,7 @@ export default function Header() {
                   </ul>
                 </li>
                 <li>
-                  <Link href="/blog">Blog </Link>
+                  <Link href="#">Blog </Link>
                 </li>
                 <li>
                   <Link href="/contact">Contact</Link>
