@@ -8,7 +8,7 @@ const Hero = (props) => {
         <div class="container-fluid p-0">
           <Image
           alt="banner"
-            src="/assets/images/banner/bgg011.jpg"
+            src="/assets/images/header/profile.jpg" 
             class="img-fullwidth"    
             width={1200}
             height={300}

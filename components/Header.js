@@ -79,7 +79,7 @@ const Header = () => {
                     href="/products"
                   >
                     Products
-                    <i className="fa fa-chevron-down ml-2"></i>
+                    <i className="fa fa-chevron-down"></i>
                   </Link>
 
                   <ul className="menu">
@@ -120,11 +120,15 @@ const Header = () => {
                 <li>
                   <Link
                     onClick={handleClose}
-                    href="/certifications"
+                    href="/Certificates"
                   >
                     Certifications
                   </Link>
                 </li>
+                <li>
+                    <Link onClick={handleClose} href="/gallery">Gallery </Link>
+                    
+                  </li>
                 <li>
                   <Link
                     onClick={handleClose}
@@ -417,7 +421,7 @@ const Header = () => {
                     <Link href="/gallery">Gallery </Link>
                   </li>
                   <li>
-                    <Link href="#">Blog </Link>
+                    <Link href="/blog">Blog </Link>
                   </li>
                 </ul>
               </div>
