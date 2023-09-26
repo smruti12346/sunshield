@@ -29,6 +29,7 @@ const additionalImages = [
   { src: "/assets/images/certificates/spice.png", name: "SPICE BOARD"},
   { src: "/assets/images/certificates/msme.png", name: "MSME"},
   { src: "/assets/images/certificates/fieo.jpg", name: "FIEO"},
+  { src: "/assets/images/certificates/iso2.png", name: "ISO"},
   // Add more images as needed
 ];
 

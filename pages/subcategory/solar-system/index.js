@@ -4,7 +4,7 @@ import React from 'react'
 function index() {
   return (
     <React.Fragment>
-    <SolarSystem/>
+      <SolarSystem/>
     </React.Fragment>
   )
 }

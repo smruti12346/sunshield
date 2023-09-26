@@ -11,10 +11,10 @@
    //   loginPopup.classList.add("show");
    // },5000)
 
-  })
+  })    
 
   function showPopup(){
-        const timeLimit = 5 // seconds;
+        const timeLimit = 2 // seconds;
         let i=0;
         const timer = setInterval(function(){
          i++;

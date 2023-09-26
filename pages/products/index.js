@@ -3,9 +3,9 @@ import Image from "next/image";
 import { useEffect, useState } from "react";
 import { api_url, url } from "@/Auth";
 import Link from "next/link";
-import Sidebar from "@/components/Sidebar";
 import FormDialog from "@/components/FormDialog";
 import React from "react";
+import ProductSideBar from "@/components/ProductSideBar";
 export const getServerSideProps = async () => {
   const res = await fetch(`${api_url}/pages?_embed&categories=5&per_page=100`);
   const data = await res.json();
@@ -127,7 +127,7 @@ const Product = ({ product_data }) => {
 
             <div className="col-lg-3 col-12 sticky-widget">
               <div className="sidebar-widget">
-                <Sidebar />
+                <ProductSideBar/>
               </div>
             </div>
           </div>

@@ -74,8 +74,7 @@ export default function Footers() {
                     >
                       Contact Us
                     </Link>
-                  </li>
-                  
+                  </li> 
                     <li>
                       <Link
                         href="/certifications"
@@ -84,14 +83,6 @@ export default function Footers() {
                         Certifications
                       </Link>
                     </li>
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-
 
                   </ul>
                 </div>
@@ -189,7 +180,7 @@ export default function Footers() {
                       <span>info@sunshieldexim.com</span>
                     </li>
                     <li>
-                      <i class="fa fa-phone"></i> <span>98-985-985-98</span>
+                      <i class="fa fa-phone"></i> <span>9777132375</span>
                     </li>
                   </ul>
                 </div>

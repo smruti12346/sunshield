@@ -6,6 +6,7 @@ import FormDialog from "@/components/FormDialog";
 import { useState } from "react";
 import Link from "next/link";
 import React from "react";
+import ProductSideBar from "./ProductSideBar";
 
 
 const SolarSystem = () => {
@@ -120,7 +121,7 @@ const SolarSystem = () => {
                         </div>
                         <div className="col-lg-3 col-12 sticky-widget">
                             <div className="sidebar-widget">
-                                <Sidebar />
+                                <ProductSideBar/>
                             </div>
                         </div>
                     </div>

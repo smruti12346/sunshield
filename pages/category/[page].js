@@ -12,13 +12,8 @@ const cat = [
   { name: "engineering-products", id: 9 },
   { name: "food-products", id: 36 },
   { name: "handicrafts", id: 11 },
- 
-  
-  
-  
-  
+     
 
- 
 ];
 export const getServerSideProps = async (slug) => {
   const [catObj] = cat.filter((item) => item.name == slug.query.page);

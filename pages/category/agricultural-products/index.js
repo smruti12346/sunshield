@@ -2,6 +2,7 @@ import Sidebar from '@/components/Sidebar'
 import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
+import ProductSideBar from '@/components/ProductSideBar'
 
 function index() {
   return (
@@ -96,7 +97,7 @@ function index() {
 </div>
 <div className="col-lg-3 col-12 sticky-widget">
 <div className="sidebar-widget">
-  <Sidebar/>
+ <ProductSideBar/>
 </div>
 </div>
 </div>

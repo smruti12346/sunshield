@@ -6,6 +6,7 @@ import Link from "next/link";
 import Sidebar from "@/components/Sidebar";
 import FormDialog from "@/components/FormDialog";
 import React from "react";
+import ProductSideBar from "@/components/ProductSideBar";
 const cat = [
   { name: "fresh-vegetables", id: 8 },
   { name: "fresh-fruits", id: 7 },
@@ -238,7 +239,7 @@ const Page = ({ product_data, desc }) => {
 
             <div className="col-lg-3 col-12 sticky-widget">
               <div className="sidebar-widget">
-                <Sidebar />
+                <ProductSideBar />
               </div>
             </div>
           </div>

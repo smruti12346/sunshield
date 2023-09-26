@@ -40,7 +40,7 @@ function Catagory() {
             <div className="post-inner custom-btn">
               <div className="post-content ">
                 <h4>
-                  <Link href={`/category/marine-products`}>Marine Products</Link>
+                  <Link href={`/subcategory/marine-products`}>Marine Products</Link>
                 </h4>
               </div>
             </div>
@@ -53,7 +53,7 @@ function Catagory() {
           <div className="post-inner custom-btn">
             <div className="post-content">
               <h4>
-                <Link href="/category/handicrafts">Handicraft Products</Link>
+                <Link href="/subcategory/handicrafts">Handicraft Products</Link>
               </h4>
             </div>
           </div>
@@ -66,7 +66,7 @@ function Catagory() {
         <div className="post-inner custom-btn ">
           <div className="post-content">
             <h4>
-              <Link href="/category/stone-and-ceramics">Stone And Ceramics </Link>
+              <Link href="/subcategory/stone-and-ceramics">Stone And Ceramics </Link>
             </h4>
           </div>
         </div>
@@ -85,9 +85,7 @@ function Catagory() {
               </div>
             </div>
             
-           
-           
-          
+
             <div
               className="post-item"
               data-aos="fade-left"
@@ -96,7 +94,7 @@ function Catagory() {
               <div className="post-inner custom-btn">
                 <div className="post-content ">
                   <h4>
-                    <Link href={`/category/packaging-products`}>Packaging  Products</Link>
+                    <Link href={`/subcategory/packaging-products`}>Packaging  Products</Link>
                   </h4>
                 </div>
               </div>
