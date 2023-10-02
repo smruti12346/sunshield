@@ -25,7 +25,7 @@ export default function Header() {
               <ul className="right">
                 <li>
                   <Link href="#">
-                    <i className="fab fa-twitter" />
+                  <i className="fa fa-linkedin"/>
                   </Link>
                 </li>
                 <li>

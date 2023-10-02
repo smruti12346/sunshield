@@ -180,7 +180,7 @@ export default function Footers() {
                       <span>info@sunshieldexim.com</span>
                     </li>
                     <li>
-                      <i class="fa fa-phone"></i> <span>9777132375</span>
+                      <i class="fa fa-phone"></i> <span>9938150304</span>
                     </li>
                   </ul>
                 </div>

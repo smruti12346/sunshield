@@ -141,7 +141,7 @@ const Contact = () => {
                                 <div className="contact-body">
                                     <ul>
                                     <li>
-                                            <h6 style={{ color: "black", textAlign: "center",fontSize:"14px" }}>  Phone Number :+98-985-985-98</h6>
+                                            <h6 style={{ color: "black", textAlign: "center",fontSize:"14px" }}>  Phone Number :9938150304</h6>
 
                                         </li>
                                         <li>

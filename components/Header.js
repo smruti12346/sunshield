@@ -200,19 +200,21 @@ const Header = () => {
                   </li>
                 </ul>
                 <ul className="right">
+                <li>
+                <a href="#">
+                  <i className="fab fa-facebook"></i>
+                </a>
+              </li>
                   <li>
                     <a href="#">
-                      <i className="fab fa-twitter"></i>
+                      <i class="fab fa-linkedin"></i>
                     </a>
                   </li>
+                 
                   <li>
                     <a href="#">
-                      <i className="fab fa-facebook"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <i className="fab fa-instagram"></i>
+                  
+                    <i className="fab fa-instagram"></i>
                     </a>
                   </li>
                 </ul>

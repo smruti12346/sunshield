@@ -1,13 +1,15 @@
+
+import React from "react";
 import axios from "axios";
 import Image from "next/image";
 import { useEffect, useState } from "react";
 import { api_url, url } from "@/Auth";
 import Link from "next/link";
-import FormDialog from "@/components/FormDialog";
-import React from "react";
-import ProductSideBar from "@/components/ProductSideBar";
+import dynamic from 'next/dynamic';
+const FormDialog = dynamic(() => import('@/components/FormDialog'));
+const ProductSideBar = dynamic(() => import('@/components/ProductSideBar'));
 export const getServerSideProps = async () => {
-  const res = await fetch(`${api_url}/pages?_embed&categories=5&per_page=100`);
+  const res = await fetch(`${api_url}/pages?_embed&categories=5&per_page=10`,{next: {revalidate: 10}});
   const data = await res.json();
   return { props: { product_data: data } };
 };
@@ -21,15 +23,15 @@ const Product = ({ product_data }) => {
     setIncr(incr + 1);
     setTitle(title);
   };
-  useEffect(() => {
-    axios.get(`${api_url}/categories?parent=5`).then((res) => {
-      setCategory(res.data);
-      console.log(res.data);
-    });
-  }, []);
-  useEffect(() => {
-    console.log(product_data);
-  }, [product_data]);
+  // useEffect(() => {
+  //   axios.get(`${api_url}/categories?parent=5`).then((res) => {
+  //     setCategory(res.data);
+  //     console.log(res.data);
+  //   });
+  // }, []);
+  // useEffect(() => {
+  //   console.log(product_data);
+  // }, [product_data]);
   return (
     <React.Fragment>
       <FormDialog
