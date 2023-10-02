@@ -191,8 +191,8 @@ const Header = () => {
               <div className="top">
                 <ul className="left">
                   <li>
-                    <i className="fas fa-map-marker-alt"></i>
-                    Bhubaneswar, Odisha, India
+                   <span  className="head-i"> Call Us  @ </span>
+                    9938150304
                   </li>
                   <li>
                     <i className="fas fa-envelope"></i>

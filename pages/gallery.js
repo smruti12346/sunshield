@@ -39,22 +39,22 @@ function gallery() {
         <h2 className="heading1">Gallery  </h2>
         <div className="gallery row">
           <div className="gallery-item col-md-4">
-            <img className="gallery-image" src="/assets/images/banner/2.jpg" alt="person writing in a notebook beside by an iPad, laptop, printed photos, spectacles, and a cup of coffee on a saucer" />
+            <img className="gallery-image" src="/assets/images/banner/sunshieldexim Gallery-01.jpg" alt="person writing in a notebook beside by an iPad, laptop, printed photos, spectacles, and a cup of coffee on a saucer" />
           </div>
           <div className="gallery-item col-md-4">
-            <img className="gallery-image" src="/assets/images/banner/3.jpg" alt="sunset behind San Francisco city skyline" />
+            <img className="gallery-image" src="/assets/images/banner/sunshieldexim Gallery-02.jpg" alt="sunset behind San Francisco city skyline" />
           </div>
           <div className="gallery-item col-md-4">
-            <img className="gallery-image" src="/assets/images/banner/4.jpg" alt="people holding umbrellas on a busy street at night lit by street lights and illuminated signs in Tokyo, Japan" />
+            <img className="gallery-image" src="/assets/images/banner/sunshieldexim Gallery-03.jpg" alt="people holding umbrellas on a busy street at night lit by street lights and illuminated signs in Tokyo, Japan" />
           </div>
           <div className="gallery-item col-md-4">
-            <img className="gallery-image" src="/assets/images/banner/5.jpg" alt="car interior from central back seat position showing driver and blurred view through windscreen of a busy road at night" />
+            <img className="gallery-image" src="/assets/images/banner/sunshieldexim Gallery-04.jpg" alt="car interior from central back seat position showing driver and blurred view through windscreen of a busy road at night" />
           </div>
           <div className="gallery-item col-md-4">
-            <img className="gallery-image" src="/assets/images/banner/6.jpg" alt="back view of woman wearing a backpack and beanie waiting to cross the road on a busy street at night in New York City, USA" />
+            <img className="gallery-image" src="/assets/images/banner/sunshieldexim Gallery-05.jpg" alt="back view of woman wearing a backpack and beanie waiting to cross the road on a busy street at night in New York City, USA" />
           </div>
           <div className="gallery-item col-md-4">
-            <img className="gallery-image" src="/assets/images/banner/7.jpg" alt="man wearing a black jacket, white shirt, blue jeans, and brown boots, playing a white electric guitar while sitting on an amp" />
+            <img className="gallery-image" src="/assets/images/banner/sunshieldexim Gallery-06.jpg" alt="man wearing a black jacket, white shirt, blue jeans, and brown boots, playing a white electric guitar while sitting on an amp" />
           </div>
         </div>
       </div>

@@ -14,8 +14,8 @@ export default function Header() {
                   Sun-Fri: 9am-6pm Saturday Closed
                 </li> */}
                 <li>
-                  <i className="fas fa-map-marker-alt" />
-                  Bhubaneswar, Odisha, India
+                  <p>Call Us @ </p><i className="fa fa-phone"/>
+                  9938150304.
                 </li>
                 <li>
                   <i className="fas fa-headset" />
