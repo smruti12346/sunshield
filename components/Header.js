@@ -396,7 +396,7 @@ const Header = () => {
                           <Link href="/subcategory/solar-systems"> Solar Products</Link>
                         </li>
                         <li>
-<Link href="/subcategory/electrical-products"> electrical product</Link></li>
+<Link href="/subcategory/electrical-products"> Electrical Products</Link></li>
                             
                       </ul>
                     </li>
