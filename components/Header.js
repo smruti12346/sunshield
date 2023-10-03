@@ -192,7 +192,7 @@ const Header = () => {
                 <ul className="left">
                   <li>
                    <span  className="head-i"> Call Us  @ </span>
-                    9938150304
+                    +91- 9938150304
                   </li>
                   <li>
                     <i className="fas fa-envelope"></i>
@@ -393,8 +393,10 @@ const Header = () => {
                       </Link>
                       <ul>
                         <li>
-                          <Link href="/subcategory/solar-systems"> Solar Systems</Link>
+                          <Link href="/subcategory/solar-systems"> Solar Products</Link>
                         </li>
+                        <li>
+<Link href="/subcategory/electrical-products"> electrical product</Link></li>
                             
                       </ul>
                     </li>

@@ -40,6 +40,8 @@ const cat = [
   { name: "bamboo-crafts", id: 50 },
   { name: "stone-and-ceramics", id: 55 },
   { name: "packaging-products", id: 56 },
+  { name: "electrical-products", id: 58 },
+  
 
   
 

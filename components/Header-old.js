@@ -15,7 +15,7 @@ export default function Header() {
                 </li> */}
                 <li>
                   <p>Call Us @ </p><i className="fa fa-phone"/>
-                  9938150304.
+                 +91- 9938150304.
                 </li>
                 <li>
                   <i className="fas fa-headset" />

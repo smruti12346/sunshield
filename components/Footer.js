@@ -190,7 +190,7 @@ export default function Footer() {
                   © 2023 <Link href="/">Sunshield Exim</Link> | All rights reserved.
                 </span>
               </div>
-              <ul className="col-xl-6 col-lg-6 col-12 foot-sign">
+              <ul className="col-xl-6 col-lg-6 col-12 foot-sign text-right">
                 <li>
                   <span>
                     Designed & Developed By <Link href="https://thetechnovate.com/" target="_blank">Technovate</Link>

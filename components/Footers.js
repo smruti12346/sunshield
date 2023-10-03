@@ -180,7 +180,7 @@ export default function Footers() {
                       <span>info@sunshieldexim.com</span>
                     </li>
                     <li>
-                      <i class="fa fa-phone"></i> <span>9938150304</span>
+                      <i class="fa fa-phone"></i> <span>+91- 9938150304</span>
                     </li>
                   </ul>
                 </div>
@@ -228,7 +228,7 @@ export default function Footers() {
                   © 2023 Sunshield Exim | All rights reserved.
                 </span>
               </div>
-              <ul className="col-xl-6 col-lg-6 col-12 foot-sign">
+              <ul className="col-xl-6 col-lg-6 col-12 foot-sign text-right">
                 <li>
                   <span className="ff" >
                     Designed & Developed By <Link href="https://thetechnovate.com/" target="_blank">Technovate</Link>
