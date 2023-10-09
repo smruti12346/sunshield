@@ -1,17 +1,61 @@
-export function CertificateProduct(props) {
-    return(
-        <div className='productList'>
-            <div key={props.id} className='productCard'>
-                <img src={props.image} alt='product-img' className='productImage'></img>
+import Lightbox from "yet-another-react-lightbox";
+import "yet-another-react-lightbox/styles.css";
+import Link from "next/link";
+import React from "react";
 
-               
-                <div className='productCard__content'>
-                <h3 className='productName'>{props.name}</h3>
-                
-              
+const images = {
+  udyam: [{ src: "/assets/images/certificates/udyam/4.jpg" }],
+  rcmc: [{ src: "/assets/images/certificates/rcmc/4.jpg" }],
+
+  export: [{ src: "/assets/images/certificates/export/4.jpg" }],
+};
+
+export function CertificateProduct(props) {
+  const [open, setOpen] = React.useState(false);
+  const [img, setImg] = React.useState("");
+  const handleOpen = (event, image) => {
+    event.preventDefault();
+    setOpen(true);
+    // setImg((prevState) => {
+    //   return prevState[img];
+    // });
+    setImg(image);
+    console.log(image);
+  };
+  const handleClose = () => {
+    setOpen(false);
+    setImg(images);
+  };
+  return (
+    <>
+      <div className="productList">
+        <div
+          key={props.id}
+          className="productCard"
+        >
+          <Link
+            href="#"
+            onClick={(event) => handleOpen(event, `${props.boxImg}`)}
+          >
+            <img
+              src={props.image}
+              alt="product-img"
+              className="productImage"
+            ></img>
+            <div className="productCard__content">
+              <h3 className="productName">{props.name}</h3>
             </div>
-            </div>
-          
+          </Link>
         </div>
-    )
+      </div>
+      <Lightbox
+        open={open}
+        close={() => handleClose()}
+        slides={[{ src: `${img}` }]}
+        carousel={{
+          finite: true,
+        }}
+      />
+    </>
+  );
 }
