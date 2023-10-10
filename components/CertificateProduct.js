@@ -19,8 +19,10 @@ export function CertificateProduct(props) {
     // setImg((prevState) => {
     //   return prevState[img];
     // });
-    setImg(image);
-    console.log(image);
+    setImg(JSON.parse(image));
+    const val = JSON.stringify(image);
+    const new_val = JSON.parse(val);
+    console.log('img', new_val[0]);
   };
   const handleClose = () => {
     setOpen(false);
@@ -51,7 +53,7 @@ export function CertificateProduct(props) {
       <Lightbox
         open={open}
         close={() => handleClose()}
-        slides={[{ src: `${img}` }]}
+        slides={img}
         carousel={{
           finite: true,
         }}

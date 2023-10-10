@@ -9,7 +9,10 @@ const contents = [
     id: 1,
     name: "DGFT",
     image: "/assets/images/certificates/dgft.jpg",
-    box: "/assets/images/certificates/export/4.jpg",
+    box: [
+      { src: `/assets/images/certificates/export/4.jpg` },
+     
+    ]
   },
   {
     id: 2,
@@ -21,19 +24,28 @@ const contents = [
     id: 3,
     name: "FSSAI",
     image: "/assets/images/certificates/fssai.png",
-    box: "/assets/images/certificates/export/4.jpg",
+    box: [
+      { src: `/assets/images/certificates/export/FSSAI.jpg` },
+     
+    ]
   },
   {
     id: 4,
     name: "UDYAM AADHAR",
     image: "/assets/images/certificates/UDYAM AADHAR.png",
-    box: "/assets/images/certificates/export/4.jpg",
+    box: [
+      { src: `/assets/images/certificates/export/UDYAM1.jpg` },
+      { src: `/assets/images/certificates/export/UDYAM2.jpg` },
+    ]
   },
   {
     id: 5,
     name: "GST",
     image: "/assets/images/certificates/logo3.jpg",
-    box: "/assets/images/certificates/export/4.jpg",
+    box: [
+      { src: `/assets/images/certificates/dgft.jpg` },
+      { src: `/assets/images/certificates/dgft.jpg` },
+    ],
   },
   {
     id: 6,
@@ -51,7 +63,10 @@ const contents = [
     id: 8,
     name: "APEDA",
     image: "/assets/images/certificates/logo5.png",
-    box: "/assets/images/certificates/export/4.jpg",
+    box: [
+      { src: `/assets/images/certificates/export/RCMC.jpg` },
+      { src: `/assets/images/certificates/export/RCMC2.jpg` },
+    ]
   },
 ];
 
@@ -76,7 +91,8 @@ export default function App() {
             key={contents.id}
             image={contents.image}
             name={contents.name}
-            boxImg={contents.box}
+            boxImg={JSON.stringify(contents.box)}
+            
           />
         ))}
       </div>
