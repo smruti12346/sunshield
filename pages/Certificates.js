@@ -43,8 +43,9 @@ const contents = [
     name: "GST",
     image: "/assets/images/certificates/logo3.jpg",
     box: [
-      { src: `/assets/images/certificates/dgft.jpg` },
-      { src: `/assets/images/certificates/dgft.jpg` },
+      { src: `/assets/images/certificates/export/GST_page-0001.jpg` },
+      { src: `/assets/images/certificates/export/GST_page-0002.jpg` },
+      { src: `/assets/images/certificates/export/GST_page-0003.jpg` },
     ],
   },
   {
